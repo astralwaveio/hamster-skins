@@ -1,0 +1,69 @@
+SafariIcon:
+  rect:
+    x: 0
+    y: 0
+    width: 200
+    height: 200
+
+AmapIcon:
+  rect:
+    x: 200
+    y: 0
+    width: 200
+    height: 200
+
+BilibiliIcon:
+  rect:
+    x: 400
+    y: 0
+    width: 200
+    height: 200
+
+YouTubeIcon:
+  rect:
+    x: 600
+    y: 0
+    width: 200
+    height: 200
+
+TikTokIcon:
+  rect:
+    x: 800
+    y: 0
+    width: 200
+    height: 200
+
+WeChatIcon:
+  rect:
+    x: 1000
+    y: 0
+    width: 200
+    height: 200
+
+JDIcon:
+  rect:
+    x: 1200
+    y: 0
+    width: 200
+    height: 200
+
+TaobaoIcon:
+  rect:
+    x: 1400
+    y: 0
+    width: 200
+    height: 200
+
+QQMusicIcon:
+  rect:
+    x: 1600
+    y: 0
+    width: 200
+    height: 200
+
+ZhihuIcon:
+  rect:
+    x: 1800
+    y: 0
+    width: 200
+    height: 200

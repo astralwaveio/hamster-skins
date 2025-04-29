@@ -1,0 +1,1088 @@
+"\u9884\u7F16\u8F91\u533A\u9AD8\u5EA6": 26
+"\u5DE5\u5177\u680F\u9AD8\u5EA6": 40
+"\u952E\u76D8\u533A\u9AD8\u5EA6": 226
+"\u7F16\u7801\u5B57\u4F53\u5927\u5C0F": 0.88em
+"\u6A2A\u6392\u5E8F\u53F7\u5B57\u4F53\u5927\u5C0F": 1.19em
+"\u6A2A\u6392\u6587\u5B57\u5B57\u4F53\u5927\u5C0F": 1.19em
+"\u6A2A\u6392\u6CE8\u91CA\u5B57\u4F53\u5927\u5C0F": 0.81em
+"\u5C55\u5F00\u5E8F\u53F7\u5B57\u4F53\u5927\u5C0F": 1.125em
+"\u5C55\u5F00\u6587\u5B57\u5B57\u4F53\u5927\u5C0F": 1.125em
+"\u5C55\u5F00\u6CE8\u91CA\u5B57\u4F53\u5927\u5C0F": 0.75em
+"\u7F16\u7801\u8272": '000000'
+"\u9996\u9009\u8272": 1fb382
+"\u6B21\u9009\u8272": '000000'
+"\u9996\u9009\u80CC\u666F\u8272": F8F9F9
+"\u6309\u952E\u5B57\u7B26\u6B63\u5E38\u8272": '000000'
+"\u6309\u952E\u5B57\u7B26\u9AD8\u4EAE\u8272": '000000'
+"\u56DE\u8F66\u952E\u5B57\u7B26\u82721": '000000'
+"\u56DE\u8F66\u952E\u5B57\u7B26\u82722": FEFEFE
+"\u5DE5\u5177\u680F\u56FE\u6807\u5B57\u7B26\u6837\u5F0F":
+  fontSize: 1.125em
+  center:
+    y: 0.72
+  normalColor: 00000080
+  highlightColor: 00000080
+"\u5C55\u5F00\u5019\u9009\u5217\u8868\u80CC\u666F\u8272": FCFCFE
+"\u5C55\u5F00\u5019\u9009\u529F\u80FD\u952E\u5B57\u7B26\u6837\u5F0F":
+  center:
+    y: 0.8
+  fontSize: 0.88em
+  normalColor: '000000'
+  highlightColor: '000000'
+"\u5217\u8868\u6587\u5B57\u6837\u5F0F":
+  normalColor: '000000'
+  fontSize: 0.94em
+"\u6309\u952E\u8FB9\u8DDD":
+  top: 4
+  left: 3
+  bottom: 4
+  right: 3
+"\u5217\u8868\u680F\u9AD8\u4EAE\u80CC\u666F":
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  cornerRadius: 6
+"\u5B57\u7B26\u952E\u80CC\u666F":
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+"\u529F\u80FD\u952E\u80CC\u666F":
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: B7BCC4
+  highlightColor: FCFCFE
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000000D
+  highlightBorderColor: 0000000D
+"\u7EFF\u8272\u80CC\u666F":
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: 23C891
+  highlightColor: FCFCFE
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+"\u4E3B\u952E\u5B57\u7B26":
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+"sym\u524D\u666F":
+  center:
+    y: 0.8
+  fontSize: 0.94em
+  normalColor: '000000'
+  highlightColor: '000000'
+"return\u524D\u666F":
+  center:
+    y: 0.82
+  fontSize: 1em
+  normalColor: FEFEFE
+  highlightColor: '000000'
+"space\u524D\u666F":
+  center:
+    y: 0.8
+  fontSize: 0.94em
+  normalColor: '000000'
+  highlightColor: '000000'
+"Backspace\u524D\u666F":
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+"enter\u524D\u666F1":
+  center:
+    y: 0.8
+  fontSize: 0.94em
+  normalColor: '000000'
+  highlightColor: '000000'
+"enter\u524D\u666F2":
+  center:
+    y: 0.8
+  fontSize: 0.94em
+  normalColor: FEFEFE
+  highlightColor: '000000'
+"period\u952E\u524D\u666F":
+  center:
+    y: 0.8
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+"emoji\u524D\u666F":
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+"\u5DE5\u5177\u680F\u56FE\u6807\u7F29\u653E": 0.55
+"\u5C55\u5F00\u56FE\u6807":
+  fontSize: 1em
+  normalColor: '000000'
+  highlightColor: '000000'
+preeditBackgroundStyle:
+  normalImage:
+    file: bg
+    image: SafariIcon
+  highlightImage:
+    file: bg
+    image: SafariIcon
+toolbarBackgroundStyle:
+  normalImage:
+    file: bg
+    image: AmapIcon
+  highlightImage:
+    file: bg
+    image: AmapIcon
+keyboardBackgroundStyle:
+  normalImage:
+    file: bg
+    image: BilibiliIcon
+  highlightImage:
+    file: bg
+    image: BilibiliIcon
+verticalCandidateBackgroundStyle:
+  normalImage:
+    file: bg
+    image: YouTubeIcon
+  highlightImage:
+    file: bg
+    image: YouTubeIcon
+animation:
+- type: bounds
+  duration: 80
+  repeatCount: 1
+  fromScale: 1
+  toScale: 0.8
+- type: bounds
+  duration: 80
+  repeatCount: 1
+  fromScale: 0.8
+  toScale: 1
+preeditHeight: 26
+toolbarHeight: 40
+keyboardHeight: 226
+preedit:
+  insets:
+    left: 10
+    top: 2
+  backgroundStyle: preeditBackgroundStyle
+  foregroundStyle: preeditForegroundStyle
+preeditForegroundStyle:
+  textColor: '000000'
+  fontSize: 0.88em
+toolbar:
+  backgroundStyle: toolbarBackgroundStyle
+  primaryButtonStyle: primaryButtonStyle
+  secondaryButtonStyle:
+  - toolbarButtonHideStyle
+  - toolbarButton1Style
+  - toolbarButton2Style
+  - toolbarButton3Style
+  - toolbarButton4Style
+  - toolbarButton5Style
+  - toolbarButton6Style
+  horizontalCandidateStyle: horizontalCandidateStyle
+  verticalCandidateStyle: verticalCandidateStyle
+primaryButtonStyle:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle:
+  - "\u5706"
+  - primaryButtonForegroundStyle
+  action:
+    floatKeyboardType: floatconfig
+toolbarButtonBackgroundStyle:
+  normalColor: 00000000
+  highlightColor: 00000000
+"\u5706":
+  normalImage:
+    file: "\u5706\u5F62"
+    image: SafariIcon
+  highlightImage:
+    file: "\u5706\u5F62"
+    image: SafariIcon
+  targetScale: 1.1
+primaryButtonForegroundStyle:
+  normalImage:
+    file: "\u8BBE\u7F6E"
+    image: SafariIcon
+  highlightImage:
+    file: "\u8BBE\u7F6E"
+    image: SafariIcon
+  targetScale: 0.55
+toolbarButtonHideStyle:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle:
+  - "\u5706"
+  - toolbarButtonHideForegroundStyle
+  action: dismissKeyboard
+toolbarButtonHideForegroundStyle:
+  text: "\uE907"
+  fontSize: 1.125em
+  center:
+    y: 0.72
+  normalColor: 00000080
+  highlightColor: 00000080
+toolbarButton1Style:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle:
+  - "\u5706"
+  - toolbarButton1ForegroundStyle
+  action:
+    shortcutCommand: '#showPasteboardView'
+toolbarButton1ForegroundStyle:
+  text: "\uE906"
+  fontSize: 1.125em
+  center:
+    y: 0.72
+  normalColor: 00000080
+  highlightColor: 00000080
+toolbarButton2Style:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle:
+  - "\u5706"
+  - toolbarButton2ForegroundStyle
+  action:
+    shortcutCommand: '#showPhraseView'
+toolbarButton2ForegroundStyle:
+  text: "\uE905"
+  fontSize: 1.125em
+  center:
+    y: 0.72
+  normalColor: 00000080
+  highlightColor: 00000080
+toolbarButton3Style:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle:
+  - "\u5706"
+  - toolbarButton3ForegroundStyle
+  action:
+    shortcutCommand: '#RimeSwitcher'
+toolbarButton3ForegroundStyle:
+  text: "\uE904"
+  fontSize: 1.125em
+  center:
+    y: 0.72
+  normalColor: 00000080
+  highlightColor: 00000080
+toolbarButton4Style:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle:
+  - "\u5706"
+  - toolbarButton4ForegroundStyle
+  action:
+    floatKeyboardType: floatsearch
+toolbarButton4ForegroundStyle:
+  text: "\uE903"
+  fontSize: 1.125em
+  center:
+    y: 0.72
+  normalColor: 00000080
+  highlightColor: 00000080
+toolbarButton5Style:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle:
+  - "\u5706"
+  - toolbarButton5ForegroundStyle
+  action:
+    runTranslateScript: "\u667A\u8C31\u7FFB\u8BD1"
+toolbarButton5ForegroundStyle:
+  text: "\uE902"
+  fontSize: 1.125em
+  center:
+    y: 0.72
+  normalColor: 00000080
+  highlightColor: 00000080
+toolbarButton6Style:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle:
+  - "\u5706"
+  - toolbarButton6ForegroundStyle
+  action:
+    openURL: hamster://dev.fuxiao.app.hamster/keyboardSkins
+toolbarButton6ForegroundStyle:
+  text: "\uE901"
+  fontSize: 1.125em
+  center:
+    y: 0.72
+  normalColor: 00000080
+  highlightColor: 00000080
+horizontalCandidateStyle:
+  insets:
+    left: 5
+    top: 5
+    bottom: 5
+  candidateStateButtonStyle: candidateStateButtonStyle
+  highlightBackgroundColor: 00000000
+  preferredBackgroundColor: F8F9F9
+  preferredIndexColor: 1fb382
+  preferredTextColor: 1fb382
+  preferredCommentColor: 1fb382
+  indexColor: '000000'
+  textColor: '000000'
+  commentColor: '000000'
+  indexFontSize: 1.19em
+  textFontSize: 1.19em
+  commentFontSize: 0.81em
+candidateStateButtonStyle:
+  backgroundStyle: toolbarButtonBackgroundStyle
+  foregroundStyle: candidateStateButtonForegroundStyle
+candidateStateButtonForegroundStyle:
+  systemImageName: chevron.down
+  fontSize: 1em
+  normalColor: '000000'
+  highlightColor: '000000'
+verticalCandidateStyle:
+  insets:
+    top: 3
+    bottom: 3
+    left: 4
+    right: 4
+  bottomRowHeight: 43
+  backgroundStyle: verticalCandidateBackgroundStyle
+  candidateStyle: verticalCandidateOfCandidateStyle
+  pageUpButtonStyle: verticalCandidatePageUpButtonStyle
+  pageDownButtonStyle: verticalCandidatePageDownButtonStyle
+  returnButtonStyle: verticalCandidateReturnButtonStyle
+  backspaceButtonStyle: verticalCandidateBackspaceButtonStyle
+verticalCandidateOfCandidateStyle:
+  insets:
+    top: 3
+    bottom: 6
+    left: 8
+    right: 8
+  cornerRadius: 7
+  backgroundColor: FCFCFE
+  separatorColor: 00000000
+  highlightBackgroundColor: 00000000
+  preferredBackgroundColor: 00000000
+  preferredIndexColor: '000000'
+  preferredTextColor: '000000'
+  preferredCommentColor: '000000'
+  indexColor: '000000'
+  textColor: '000000'
+  commentColor: '000000'
+  indexFontSize: 1.125em
+  textFontSize: 1.125em
+  commentFontSize: 0.75em
+verticalCandidatePageUpButtonStyle:
+  backgroundStyle: verticalCandidateButtonBackgroundStyle
+  foregroundStyle: verticalCandidatePageUpButtonForegroundStyle
+verticalCandidateButtonBackgroundStyle:
+  insets:
+    top: 3
+    left: 8
+    bottom: 3
+    right: 8
+  type: original
+  normalColor: B7BCC4
+  highlightColor: FCFCFE
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000000D
+  highlightBorderColor: 0000000D
+verticalCandidatePageUpButtonForegroundStyle:
+  text: "\uE991"
+  center:
+    y: 0.8
+  fontSize: 0.88em
+  normalColor: '000000'
+  highlightColor: '000000'
+verticalCandidatePageDownButtonStyle:
+  backgroundStyle: verticalCandidateButtonBackgroundStyle
+  foregroundStyle: verticalCandidatePageDownButtonForegroundStyle
+verticalCandidatePageDownButtonForegroundStyle:
+  text: "\uE992"
+  center:
+    y: 0.8
+  fontSize: 0.88em
+  normalColor: '000000'
+  highlightColor: '000000'
+verticalCandidateReturnButtonStyle:
+  backgroundStyle: verticalCandidateButtonBackgroundStyle
+  foregroundStyle: verticalCandidateReturnButtonForegroundStyle
+verticalCandidateReturnButtonForegroundStyle:
+  text: "\uE9B8"
+  center:
+    y: 0.8
+  fontSize: 0.88em
+  normalColor: '000000'
+  highlightColor: '000000'
+verticalCandidateBackspaceButtonStyle:
+  backgroundStyle: verticalCandidateButtonBackgroundStyle
+  foregroundStyle:
+  - verticalCandidateBackspaceButtonForegroundStyle
+verticalCandidateBackspaceButtonForegroundStyle:
+  text: "\uE9AA"
+  center:
+    y: 0.8
+  fontSize: 0.88em
+  normalColor: '000000'
+  highlightColor: '000000'
+keyboardLayout:
+- VStack:
+    style: VStackStyle
+    subviews:
+    - Cell: collection
+    - Cell: returnButton
+- VStack:
+    subviews:
+    - Cell: 1Button
+    - Cell: 4Button
+    - Cell: 7Button
+    - Cell: symbolButton
+- VStack:
+    subviews:
+    - Cell: 2Button
+    - Cell: 5Button
+    - Cell: 8Button
+    - Cell: 0Button
+- VStack:
+    subviews:
+    - Cell: 3Button
+    - Cell: 6Button
+    - Cell: 9Button
+    - Cell: periodButton
+- VStack:
+    style: VStackStyle
+    subviews:
+    - Cell: backspaceButton
+    - Cell: spaceButton
+    - Cell: emojiButton
+    - Cell: enterButton
+keyboardStyle:
+  insets:
+    top: 2
+    bottom: 1
+  backgroundStyle: keyboardBackgroundStyle
+VStackStyle:
+  size:
+    width: 1.7/10
+collection:
+  size:
+    height: 3/4
+  backgroundStyle: collectionBackgroundStyle
+  type: symbols
+  dataSource: symbols
+  cellStyle: collectionCellStyle
+collectionBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: B7BCC4
+  highlightColor: FCFCFE
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000000D
+  highlightBorderColor: 0000000D
+collectionCellStyle:
+  backgroundStyle: collectionCellBackgroundStyle
+  foregroundStyle: collectionCellForegroundStyle
+collectionCellBackgroundStyle:
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  cornerRadius: 6
+collectionCellForegroundStyle:
+  normalColor: '000000'
+  fontSize: 0.94em
+returnButton:
+  backgroundStyle: returnButtonBackgroundStyle
+  foregroundStyle:
+  - returnButtonForegroundStyle
+  action: returnPrimaryKeyboard
+returnButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: 23C891
+  highlightColor: FCFCFE
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+returnButtonForegroundStyle:
+  animation: animation
+  text: "\uE9B8"
+  center:
+    y: 0.82
+  fontSize: 1em
+  normalColor: FEFEFE
+  highlightColor: '000000'
+1Button:
+  backgroundStyle: 1ButtonBackgroundStyle
+  foregroundStyle:
+  - 1ButtonForegroundStyle
+  action:
+    character: 1
+1ButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+1ButtonForegroundStyle:
+  animation: animation
+  text: '1'
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+4Button:
+  backgroundStyle: 4ButtonBackgroundStyle
+  foregroundStyle:
+  - 4ButtonForegroundStyle
+  action:
+    character: 4
+4ButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+4ButtonForegroundStyle:
+  animation: animation
+  text: '4'
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+7Button:
+  backgroundStyle: 7ButtonBackgroundStyle
+  foregroundStyle:
+  - 7ButtonForegroundStyle
+  action:
+    character: 7
+7ButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+7ButtonForegroundStyle:
+  animation: animation
+  text: '7'
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+symbolButton:
+  backgroundStyle: symbolButtonBackgroundStyle
+  foregroundStyle:
+  - symbolButtonForegroundStyle
+  action:
+    keyboardType: symbolic
+  swipeUpAction:
+    keyboardType: emoji
+symbolButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+symbolButtonForegroundStyle:
+  animation: animation
+  text: "\u7B26\u53F7"
+  center:
+    y: 0.8
+  fontSize: 0.94em
+  normalColor: '000000'
+  highlightColor: '000000'
+2Button:
+  backgroundStyle: 2ButtonBackgroundStyle
+  foregroundStyle:
+  - 2ButtonForegroundStyle
+  action:
+    character: 2
+2ButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+2ButtonForegroundStyle:
+  animation: animation
+  text: '2'
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+5Button:
+  backgroundStyle: 5ButtonBackgroundStyle
+  foregroundStyle:
+  - 5ButtonForegroundStyle
+  action:
+    character: 5
+5ButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+5ButtonForegroundStyle:
+  animation: animation
+  text: '5'
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+8Button:
+  backgroundStyle: 8ButtonBackgroundStyle
+  foregroundStyle:
+  - 8ButtonForegroundStyle
+  action:
+    character: 8
+8ButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+8ButtonForegroundStyle:
+  animation: animation
+  text: '8'
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+0Button:
+  backgroundStyle: 0ButtonBackgroundStyle
+  foregroundStyle:
+  - 0ButtonForegroundStyle
+  action:
+    character: 0
+0ButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+0ButtonForegroundStyle:
+  animation: animation
+  text: '0'
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+3Button:
+  backgroundStyle: 3ButtonBackgroundStyle
+  foregroundStyle:
+  - 3ButtonForegroundStyle
+  action:
+    character: 3
+3ButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+3ButtonForegroundStyle:
+  animation: animation
+  text: '3'
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+6Button:
+  backgroundStyle: 6ButtonBackgroundStyle
+  foregroundStyle:
+  - 6ButtonForegroundStyle
+  action:
+    character: 6
+6ButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+6ButtonForegroundStyle:
+  animation: animation
+  text: '6'
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+9Button:
+  backgroundStyle: 9ButtonBackgroundStyle
+  foregroundStyle:
+  - 9ButtonForegroundStyle
+  action:
+    character: 9
+9ButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+9ButtonForegroundStyle:
+  animation: animation
+  text: '9'
+  center:
+    y: 0.78
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+periodButton:
+  backgroundStyle: periodButtonBackgroundStyle
+  foregroundStyle: periodButtonForegroundStyle
+  action:
+    character: .
+periodButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: FCFCFE
+  highlightColor: B7BCC4
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+periodButtonForegroundStyle:
+  animation: animation
+  text: "\xB7"
+  center:
+    y: 0.8
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+backspaceButton:
+  backgroundStyle: backspaceButtonBackgroundStyle
+  foregroundStyle: backspaceButtonForegroundStyle
+  action: backspace
+  repeatAction: backspace
+backspaceButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: B7BCC4
+  highlightColor: FCFCFE
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000000D
+  highlightBorderColor: 0000000D
+backspaceButtonForegroundStyle:
+  animation: animation
+  systemImageName: delete.left
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+spaceButton:
+  backgroundStyle: spaceButtonBackgroundStyle
+  foregroundStyle: spaceButtonForegroundStyle
+  action: space
+spaceButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: B7BCC4
+  highlightColor: FCFCFE
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000000D
+  highlightBorderColor: 0000000D
+spaceButtonForegroundStyle:
+  animation: animation
+  text: "\u7A7A\u683C"
+  center:
+    y: 0.8
+  fontSize: 0.94em
+  normalColor: '000000'
+  highlightColor: '000000'
+emojiButton:
+  backgroundStyle: emojiButtonBackgroundStyle
+  foregroundStyle: emojiButtonForegroundStyle
+  action:
+    keyboardType: emoji
+emojiButtonBackgroundStyle:
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: B7BCC4
+  highlightColor: FCFCFE
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000000D
+  highlightBorderColor: 0000000D
+emojiButtonForegroundStyle:
+  animation: animation
+  systemImageName: face.smiling
+  fontSize: 1.125em
+  normalColor: '000000'
+  highlightColor: '000000'
+enterButton:
+  backgroundStyle: "// JavaScript\nfunction getText() {\n  const type = $getReturnKeyType();\n
+    \ if (type === 1 || type === 4 || type === 6 || type === 7 || type === 9) {\n
+    \   return \"\u7EFF\u8272\u56DE\u8F66\u80CC\u666F\";\n  }\n  return \"\u7070\u8272\u56DE\u8F66\u80CC\u666F\";\n}"
+  foregroundStyle: "// JavaScript\nfunction getText() {\n  const type = $getReturnKeyType();\n
+    \ if (type === 1 || type === 4 || type === 6 || type === 7 || type === 9) {\n
+    \     return \"\u767D\u8272\u56DE\u8F66\u524D\u666F\";\n    }\n  return \"\u9ED1\u8272\u56DE\u8F66\u524D\u666F\";\n}"
+  action: enter
+  swipeUpAction:
+    shortcutCommand: "#\u6362\u884C"
+  swipeDownAction:
+    shortcutCommand: "#\u65B9\u6848\u5207\u6362"
+"\u7EFF\u8272\u56DE\u8F66\u80CC\u666F":
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: 23C891
+  highlightColor: FCFCFE
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000001A
+  highlightBorderColor: 0000001A
+"\u7070\u8272\u56DE\u8F66\u80CC\u666F":
+  animation: animation
+  insets:
+    top: 4
+    left: 3
+    bottom: 4
+    right: 3
+  type: original
+  normalColor: B7BCC4
+  highlightColor: FCFCFE
+  cornerRadius: 7
+  normalLowerEdgeColor: 0000004D
+  highlightLowerEdgeColor: 0000004D
+  borderSize: 0.2
+  normalBorderColor: 0000000D
+  highlightBorderColor: 0000000D
+"\u9ED1\u8272\u56DE\u8F66\u524D\u666F":
+  animation: animation
+  text: "// JavaScript\nfunction getText() {\n  const preedit = $getRimePreedit();\n
+    \ if (preedit) {\n      return \"\u786E\u5B9A\";\n    }\n  const type = $getReturnKeyType();\n
+    \ switch (type) {\n    case 1:\n      return \"\u524D\u5F80\";\n    case 3:\n
+    \     return \"\u52A0\u5165\";\n    case 4:\n      return \"\u524D\u5F80\";\n
+    \   case 6:\n      return \"\u641C\u7D22\"\n    case 7:\n      return \"\u53D1\u9001\"\n
+    \   case 9:\n      return \"\u5B8C\u6210\";\n    default:\n      return \"\u6362\u884C\";\n
+    \ }\n}"
+  center:
+    y: 0.8
+  fontSize: 0.94em
+  normalColor: '000000'
+  highlightColor: '000000'
+"\u767D\u8272\u56DE\u8F66\u524D\u666F":
+  animation: animation
+  text: "// JavaScript\nfunction getText() {\n  const preedit = $getRimePreedit();\n
+    \ if (preedit) {\n      return \"\u786E\u5B9A\";\n    }\n  const type = $getReturnKeyType();\n
+    \ switch (type) {\n    case 1:\n      return \"\u524D\u5F80\";\n    case 3:\n
+    \     return \"\u52A0\u5165\";\n    case 4:\n      return \"\u524D\u5F80\";\n
+    \   case 6:\n      return \"\u641C\u7D22\"\n    case 7:\n      return \"\u53D1\u9001\"\n
+    \   case 9:\n      return \"\u5B8C\u6210\";\n    default:\n      return \"\u6362\u884C\";\n
+    \ }\n}"
+  center:
+    y: 0.8
+  fontSize: 0.94em
+  normalColor: FEFEFE
+  highlightColor: '000000'
+dataSource:
+  symbols:
+  - '='
+  - +
+  - '-'
+  - '*'
+  - /
+  - (
+  - )
+  - '@'
+  - ':'
+  - ','
+  - '#'
+  - '%'
+  - ':'
+  - _
+  - '?'
+  - "\uFFE5"

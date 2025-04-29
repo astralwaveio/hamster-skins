@@ -1,0 +1,207 @@
+"\u6309\u952E\u5E95\u56FE\u6837\u5F0F":
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+keyboardLayout:
+- HStack:
+    subviews:
+    - Cell: 1_Button
+    - Cell: 2_Button
+    - Cell: 3_Button
+    - Cell: 4_Button
+    - Cell: 5_Button
+- HStack:
+    subviews:
+    - Cell: 6_Button
+    - Cell: 7_Button
+    - Cell: 8_Button
+    - Cell: 9_Button
+    - Cell: 10_Button
+floatTargetScale:
+  x: 0.7
+  y: 0.45
+keyboardStyle:
+  insets:
+    top: 8
+    left: 8
+    bottom: 8
+    right: 8
+  backgroundStyle: keyboardBackgroundStyle
+keyboardBackgroundStyle:
+  type: original
+  normalColor: aaaaaadd
+  cornerRadius: 7
+  borderSize: 0.4
+  normalBorderColor: FFFFFF1A
+  normalLowerEdgeColor: 00000099
+1_Button:
+  size:
+    height: 1/4
+  backgroundStyle: 1_ButtonBackgroundStyle
+  action:
+    openURL: https://github.com/search?q=#selectText+pushed%3A%3E2023-01-01&type=repositories&s=stars&o=desc
+1_ButtonBackgroundStyle:
+  animation: animation
+  normalImage:
+    file: "\u56FE\u6807"
+    image: YouTubeIcon
+  highlightImage:
+    file: "\u56FE\u6807"
+    image: YouTubeIcon
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+2_Button:
+  size:
+    height: 1/4
+  backgroundStyle: 2_ButtonBackgroundStyle
+  action:
+    openURL: https://www.google.com/search?q=#selectText
+2_ButtonBackgroundStyle:
+  animation: animation
+  normalImage:
+    file: "\u56FE\u6807"
+    image: SafariIcon
+  highlightImage:
+    file: "\u56FE\u6807"
+    image: SafariIcon
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+3_Button:
+  size:
+    height: 1/4
+  backgroundStyle: 3_ButtonBackgroundStyle
+  action:
+    openURL: taobao://s.taobao.com?q=#pasteboardContent
+3_ButtonBackgroundStyle:
+  animation: animation
+  normalImage:
+    file: "\u56FE\u6807"
+    image: TaobaoIcon
+  highlightImage:
+    file: "\u56FE\u6807"
+    image: TaobaoIcon
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+4_Button:
+  size:
+    height: 1/4
+  backgroundStyle: 4_ButtonBackgroundStyle
+  action:
+    openURL: 'openapp.jdmobile://virtual?params={"des":"productList", "keyWord":"#pasteboardContent",
+      "from":"search", "category":"jump"}'
+4_ButtonBackgroundStyle:
+  animation: animation
+  normalImage:
+    file: "\u56FE\u6807"
+    image: JDIcon
+  highlightImage:
+    file: "\u56FE\u6807"
+    image: JDIcon
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+5_Button:
+  size:
+    height: 1/4
+  backgroundStyle: 5_ButtonBackgroundStyle
+  action:
+    openURL: snssdk1128://search?keyword=#pasteboardContent
+5_ButtonBackgroundStyle:
+  animation: animation
+  normalImage:
+    file: "\u56FE\u6807"
+    image: TikTokIcon
+  highlightImage:
+    file: "\u56FE\u6807"
+    image: TikTokIcon
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+6_Button:
+  size:
+    height: 1/4
+  backgroundStyle: 6_ButtonBackgroundStyle
+  action:
+    openURL: qqmusic://qq.com/ui/recognize
+6_ButtonBackgroundStyle:
+  animation: animation
+  normalImage:
+    file: "\u56FE\u6807"
+    image: QQMusicIcon
+  highlightImage:
+    file: "\u56FE\u6807"
+    image: QQMusicIcon
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+7_Button:
+  size:
+    height: 1/4
+  backgroundStyle: 7_ButtonBackgroundStyle
+  action:
+    openURL: zhihu://search?q=#pasteboardContent
+7_ButtonBackgroundStyle:
+  animation: animation
+  normalImage:
+    file: "\u56FE\u6807"
+    image: ZhihuIcon
+  highlightImage:
+    file: "\u56FE\u6807"
+    image: ZhihuIcon
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+8_Button:
+  size:
+    height: 1/4
+  backgroundStyle: 8_ButtonBackgroundStyle
+  action:
+    openURL: bilibili://search?keyword=#pasteboardContent
+8_ButtonBackgroundStyle:
+  animation: animation
+  normalImage:
+    file: "\u56FE\u6807"
+    image: BilibiliIcon
+  highlightImage:
+    file: "\u56FE\u6807"
+    image: BilibiliIcon
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+9_Button:
+  size:
+    height: 1/4
+  backgroundStyle: 9_ButtonBackgroundStyle
+  action:
+    openURL: weixin://scanqrcode
+9_ButtonBackgroundStyle:
+  animation: animation
+  normalImage:
+    file: "\u56FE\u6807"
+    image: WeChatIcon
+  highlightImage:
+    file: "\u56FE\u6807"
+    image: WeChatIcon
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+10_Button:
+  size:
+    height: 1/4
+  backgroundStyle: 10_ButtonBackgroundStyle
+  action:
+    openURL: iosamap://path?sourceApplication=applicationName&dname=#pasteboardContent&t=0
+10_ButtonBackgroundStyle:
+  animation: animation
+  normalImage:
+    file: "\u56FE\u6807"
+    image: AmapIcon
+  highlightImage:
+    file: "\u56FE\u6807"
+    image: AmapIcon
+  contentMode: scaleAspectFit
+  targetScale: 0.75
+animation:
+- type: bounds
+  duration: 80
+  repeatCount: 1
+  fromScale: 1
+  toScale: 0.8
+- type: bounds
+  duration: 80
+  repeatCount: 1
+  fromScale: 0.8
+  toScale: 1
