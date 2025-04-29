@@ -1,0 +1,47 @@
+name: Build and Release HSKIN Packages
+
+on:
+    workflow_dispatch:
+        inputs:
+            folder_names:
+                # 二级子目录名称. 多个请以逗号分隔，如 foo,bar
+                description: 'wechat'
+                required: true
+                type: string
+
+jobs:
+    build-and-release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Prepare subfolder list
+              id: prep_list
+              run: |
+                  # 去掉所有空白，按逗号分割
+                  FOLDERS=$(echo "${{ github.event.inputs.folder_names }}" | tr -d ' \t' | tr ',' ' ')
+                  echo "folders=$FOLDERS" >> $GITHUB_OUTPUT
+
+            - name: Pack each directory as .hskin
+              run: |
+                  mkdir output
+                  for d in ${{ steps.prep_list.outputs.folders }}; do
+                    if [ -d "$d" ]; then
+                      zip -r "output/$d.hskin" "$d"
+                    else
+                      echo "[Warning] 目录 '$d' 不存在，跳过。"
+                    fi
+                  done
+
+            - name: List hskin files
+              run: ls -l output/*.hskin
+
+            - name: Create Release
+              id: create_release
+              uses: ncipollo/release-action@v1
+              with:
+                  tag: hskin-release-${{ github.run_number }}
+                  name: HSKIN Release ${{ github.run_number }}
+                  generateReleaseNotes: true
+                  artifacts: 'output/*.hskin'
