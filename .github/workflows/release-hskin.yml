@@ -4,9 +4,9 @@ on:
     workflow_dispatch:
         inputs:
             folder_names:
-                # 二级子目录名称. 多个请以逗号分隔，如 foo,bar
-                description: 'wechat'
-                required: true
+                description: '二级子目录名称（多个请以逗号分隔，如 foo,bar）'
+                required: false
+                default: 'wechat'
                 type: string
 
 jobs:
