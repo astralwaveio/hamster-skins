@@ -38,7 +38,7 @@ keyboardBackgroundStyle:
     height: 1/4
   backgroundStyle: 1_ButtonBackgroundStyle
   action:
-    openURL: https://github.com/search?q=#selectText+pushed%3A%3E2023-01-01&type=repositories&s=stars&o=desc
+    openURL: youtube://results?search_query=#pasteboardContent,
 1_ButtonBackgroundStyle:
   animation: animation
   normalImage:
