@@ -1,0 +1,40 @@
+# ------------------------------ #
+# hamster-skins
+# ------------------------------ #
+*.keyboard
+
+# ------------------------------ #
+# macOS 系统文件
+# ------------------------------ #
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+*.DS_Store
+
+# macOS 临时文件
+Icon?
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+
+# ------------------------------ #
+# Windows 系统文件
+# ------------------------------ #
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+pagefile.sys
+hiberfil.sys
+swapfile
+*.tmp
+~$*
+
+# ------------------------------ #
+# Visual Studio Code
+# ------------------------------ #
+.vscode/
+*.code-workspace
