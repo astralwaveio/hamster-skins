@@ -276,37 +276,37 @@ ButtonHoldSymbolsOfqForeground: &iaqp
 preeditBackgroundStyle:
   normalImage:
     file: tm
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: tm
-    image: SafariIcon
+    image: IMG1
 
 #工具栏背景
 toolbarBackgroundStyle:
   normalImage:
     file: tm
-    image: AmapIcon
+    image: IMG2
   highlightImage:
     file: tm
-    image: AmapIcon
+    image: IMG2
 
 #键盘区背景
 keyboardBackgroundStyle:
   normalImage:
     file: tm
-    image: BilibiliIcon
+    image: IMG3
   highlightImage:
     file: tm
-    image: BilibiliIcon
+    image: IMG3
 
 #展开后选背景
 verticalCandidateBackgroundStyle:
   normalImage:
     file: tm
-    image: YouTubeIcon
+    image: IMG4
   highlightImage:
     file: tm
-    image: YouTubeIcon
+    image: IMG4
 
 #按键背景动画
 animation:
@@ -362,19 +362,19 @@ toolbarButtonBackgroundStyle:
 圆:
   normalImage:
     file: 圆形
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: 圆形
-    image: SafariIcon
+    image: IMG1
   targetScale: 1.1
 
 primaryButtonForegroundStyle:
   normalImage:
     file: 设置
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: 设置
-    image: SafariIcon
+    image: IMG1
   targetScale: *toolbarButton_targetScale
 
 toolbarButtonHideStyle:
@@ -3257,10 +3257,10 @@ cnenButtonForegroundStyle:
   animation: animation
   normalImage:
     file: encn
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: cnen
-    image: SafariIcon
+    image: IMG1
   targetScale: 0.5
 
 cnenButtonHoldSymbolsStyle:

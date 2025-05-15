@@ -52,7 +52,7 @@
 列表栏背景: &lb_bj
   insets: *insets
   type: original
-  normalColor: "55555566"
+  normalColor: '55555566'
   highlightColor: BBBBBB66
   cornerRadius: 7
   normalLowerEdgeColor: 00000099
@@ -71,7 +71,7 @@
   insets: *insets
   type: original
   normalColor: BBBBBB66
-  highlightColor: "66666666"
+  highlightColor: '66666666'
   cornerRadius: 7
   normalLowerEdgeColor: 00000099
   highlightLowerEdgeColor: 00000099
@@ -83,7 +83,7 @@
   insets: *insets
   type: original
   normalColor: BBBBBB66
-  highlightColor: "66666666"
+  highlightColor: '66666666'
   cornerRadius: 7
   normalLowerEdgeColor: 00000099
   highlightLowerEdgeColor: 00000099
@@ -94,7 +94,7 @@
 功能键背景: &Function_bg
   insets: *insets
   type: original
-  normalColor: "55555566"
+  normalColor: '55555566'
   highlightColor: BBBBBB66
   cornerRadius: 7
   normalLowerEdgeColor: 00000099
@@ -182,37 +182,37 @@ equal前景: &equal_qj
 preeditBackgroundStyle:
   normalImage:
     file: tm
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: tm
-    image: SafariIcon
+    image: IMG1
 
 #工具栏背景
 toolbarBackgroundStyle:
   normalImage:
     file: tm
-    image: AmapIcon
+    image: IMG2
   highlightImage:
     file: tm
-    image: AmapIcon
+    image: IMG2
 
 #键盘区背景
 keyboardBackgroundStyle:
   normalImage:
     file: tm
-    image: BilibiliIcon
+    image: IMG3
   highlightImage:
     file: tm
-    image: BilibiliIcon
+    image: IMG3
 
 #展开后选背景
 verticalCandidateBackgroundStyle:
   normalImage:
     file: tm
-    image: YouTubeIcon
+    image: IMG4
   highlightImage:
     file: tm
-    image: YouTubeIcon
+    image: IMG4
 
 #按键背景动画
 animation:
@@ -232,7 +232,7 @@ toolbarHeight: *toolbar_Height
 keyboardHeight: *keyboard_Height
 
 preedit:
-  insets: { left: 10, top: 2 }
+  insets: {left: 10, top: 2}
   backgroundStyle: preeditBackgroundStyle
   foregroundStyle: preeditForegroundStyle
 
@@ -259,7 +259,7 @@ primaryButtonStyle:
   foregroundStyle:
     - 圆
     - primaryButtonForegroundStyle
-  action: { floatKeyboardType: floatconfig }
+  action: {floatKeyboardType: floatconfig}
 
 toolbarButtonBackgroundStyle:
   normalColor: 00000000
@@ -268,19 +268,19 @@ toolbarButtonBackgroundStyle:
 圆:
   normalImage:
     file: 圆形
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: 圆形
-    image: SafariIcon
+    image: IMG1
   targetScale: 1.1
 
 primaryButtonForegroundStyle:
   normalImage:
     file: 设置
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: 设置
-    image: SafariIcon
+    image: IMG1
   targetScale: *toolbarButton_targetScale
 
 toolbarButtonHideStyle:
@@ -299,7 +299,7 @@ toolbarButton1Style:
   foregroundStyle:
     - 圆
     - toolbarButton1ForegroundStyle
-  action: { shortcutCommand: "#showPasteboardView" }
+  action: {shortcutCommand: '#showPasteboardView'}
 
 toolbarButton1ForegroundStyle:
   text: 
@@ -310,7 +310,7 @@ toolbarButton2Style:
   foregroundStyle:
     - 圆
     - toolbarButton2ForegroundStyle
-  action: { shortcutCommand: "#showPhraseView" }
+  action: {shortcutCommand: '#showPhraseView'}
 
 toolbarButton2ForegroundStyle:
   text: 
@@ -321,7 +321,7 @@ toolbarButton3Style:
   foregroundStyle:
     - 圆
     - toolbarButton3ForegroundStyle
-  action: { shortcutCommand: "#RimeSwitcher" }
+  action: {shortcutCommand: '#RimeSwitcher'}
 
 toolbarButton3ForegroundStyle:
   text: 
@@ -332,7 +332,7 @@ toolbarButton4Style:
   foregroundStyle:
     - 圆
     - toolbarButton4ForegroundStyle
-  action: { floatKeyboardType: floatsearch }
+  action: {floatKeyboardType: floatsearch}
 
 toolbarButton4ForegroundStyle:
   text: 
@@ -343,7 +343,7 @@ toolbarButton5Style:
   foregroundStyle:
     - 圆
     - toolbarButton5ForegroundStyle
-  action: { runTranslateScript: 智谱翻译 }
+  action: {runTranslateScript: 智谱翻译}
 
 toolbarButton5ForegroundStyle:
   text: 
@@ -354,14 +354,14 @@ toolbarButton6Style:
   foregroundStyle:
     - 圆
     - toolbarButton6ForegroundStyle
-  action: { openURL: hamster://dev.fuxiao.app.hamster/keyboardSkins }
+  action: {openURL: hamster://dev.fuxiao.app.hamster/keyboardSkins}
 
 toolbarButton6ForegroundStyle:
   text: 
   <<: *gjltb
 
 horizontalCandidateStyle:
-  insets: { left: 5, top: 5, bottom: 5 }
+  insets: {left: 5, top: 5, bottom: 5}
   candidateStateButtonStyle: candidateStateButtonStyle
   highlightBackgroundColor: 00000000
   preferredBackgroundColor: *textfirstBackgroundColor
@@ -385,7 +385,7 @@ candidateStateButtonForegroundStyle:
   <<: *vktb
 
 verticalCandidateStyle:
-  insets: { top: 3, bottom: 3, left: 4, right: 4 }
+  insets: {top: 3, bottom: 3, left: 4, right: 4}
   bottomRowHeight: 43
   backgroundStyle: verticalCandidateBackgroundStyle
   candidateStyle: verticalCandidateOfCandidateStyle
@@ -395,7 +395,7 @@ verticalCandidateStyle:
   backspaceButtonStyle: verticalCandidateBackspaceButtonStyle
 
 verticalCandidateOfCandidateStyle:
-  insets: { top: 3, bottom: 6, left: 8, right: 8 }
+  insets: {top: 3, bottom: 6, left: 8, right: 8}
   cornerRadius: 7
   backgroundColor: *zkhxbj
   separatorColor: 00000000
@@ -416,7 +416,7 @@ verticalCandidatePageUpButtonStyle:
   foregroundStyle: verticalCandidatePageUpButtonForegroundStyle
 
 verticalCandidateButtonBackgroundStyle:
-  insets: { top: 3, left: 8, bottom: 3, right: 8 }
+  insets: {top: 3, left: 8, bottom: 3, right: 8}
   <<: *xql_bg
 
 verticalCandidatePageUpButtonForegroundStyle:
@@ -449,69 +449,69 @@ verticalCandidateBackspaceButtonForegroundStyle:
   <<: *zkhx
 
 keyboardLayout:
-  - VStack:
-      style: columnStyle1
-      subviews:
-        - HStack:
-            style: HStackStyle1
-            subviews:
-              - Cell: categoryCollection
-              - Cell: descriptionCollection
-        - HStack:
-            style: HStackStyle2
-            subviews:
-              - Cell: returnButton1
-              - Cell: pageUpButton
-              - Cell: pageDownButton
-              - Cell: lockButton
-              - Cell: backspaceButton1
-  - VStack:
-      style: columnStyle2
-      subviews:
-        - HStack:
-            style: HStackStyle3
-            subviews:
-              - Cell: 加
-              - Cell: 1Button
-              - Cell: 2Button
-              - Cell: 3Button
-        - HStack:
-            style: HStackStyle3
-            subviews:
-              - Cell: 减
-              - Cell: 4Button
-              - Cell: 5Button
-              - Cell: 6Button
-        - HStack:
-            style: HStackStyle3
-            subviews:
-              - Cell: 乘
-              - Cell: 7Button
-              - Cell: 8Button
-              - Cell: 9Button
-        - HStack:
-            style: HStackStyle2
-            subviews:
-              - Cell: 除
-              - Cell: equalButton
-              - Cell: 0Button
-              - Cell: periodButton
-  - VStack:
-      style: columnStyle3
-      subviews:
-        - HStack:
-            style: HStackStyle1
-            subviews:
-              - Cell: descriptionCollection
-              - Cell: categoryCollection
-        - HStack:
-            style: HStackStyle2
-            subviews:
-              - Cell: returnButton2
-              - Cell: pageUpButton
-              - Cell: pageDownButton
-              - Cell: lockButton
-              - Cell: backspaceButton2
+    - VStack:
+        style: columnStyle1
+        subviews:
+          - HStack:
+              style: HStackStyle1
+              subviews:
+                - Cell: categoryCollection
+                - Cell: descriptionCollection
+          - HStack:
+              style: HStackStyle2
+              subviews:
+                - Cell: returnButton1
+                - Cell: pageUpButton
+                - Cell: pageDownButton
+                - Cell: lockButton
+                - Cell: backspaceButton1
+    - VStack:
+        style: columnStyle2
+        subviews:
+          - HStack:
+              style: HStackStyle3
+              subviews:
+                - Cell: 加
+                - Cell: 1Button
+                - Cell: 2Button
+                - Cell: 3Button
+          - HStack:
+              style: HStackStyle3
+              subviews:
+                - Cell: 减
+                - Cell: 4Button
+                - Cell: 5Button
+                - Cell: 6Button
+          - HStack:
+              style: HStackStyle3
+              subviews:
+                - Cell: 乘
+                - Cell: 7Button
+                - Cell: 8Button
+                - Cell: 9Button
+          - HStack:
+              style: HStackStyle2
+              subviews:
+                - Cell: 除
+                - Cell: equalButton
+                - Cell: 0Button
+                - Cell: periodButton
+    - VStack:
+        style: columnStyle3
+        subviews:
+          - HStack:
+              style: HStackStyle1
+              subviews:
+                - Cell: descriptionCollection
+                - Cell: categoryCollection
+          - HStack:
+              style: HStackStyle2
+              subviews:
+                - Cell: returnButton2
+                - Cell: pageUpButton
+                - Cell: pageDownButton
+                - Cell: lockButton
+                - Cell: backspaceButton2
 
 columnStyle1:
   size:
@@ -540,7 +540,7 @@ HStackStyle2:
 HStackStyle3:
 
 keyboardStyle:
-  insets: { top: 1 }
+  insets: {top: 1}
   backgroundStyle: keyboardBackgroundStyle
 
 #类别页
@@ -697,7 +697,7 @@ backspaceButtonForegroundStyle:
   backgroundStyle: 1ButtonBackgroundStyle
   foregroundStyle:
     - 1ButtonForegroundStyle
-  action: { character: 1 }
+  action: {character: 1}
 
 1ButtonBackgroundStyle:
   animation: animation
@@ -705,14 +705,14 @@ backspaceButtonForegroundStyle:
 
 1ButtonForegroundStyle:
   animation: animation
-  text: "1"
+  text: '1'
   <<: *szzf
 
 4Button:
   backgroundStyle: 4ButtonBackgroundStyle
   foregroundStyle:
     - 4ButtonForegroundStyle
-  action: { character: 4 }
+  action: {character: 4}
 
 4ButtonBackgroundStyle:
   animation: animation
@@ -720,14 +720,14 @@ backspaceButtonForegroundStyle:
 
 4ButtonForegroundStyle:
   animation: animation
-  text: "4"
+  text: '4'
   <<: *szzf
 
 7Button:
   backgroundStyle: 7ButtonBackgroundStyle
   foregroundStyle:
     - 7ButtonForegroundStyle
-  action: { character: 7 }
+  action: {character: 7}
 
 7ButtonBackgroundStyle:
   animation: animation
@@ -735,14 +735,14 @@ backspaceButtonForegroundStyle:
 
 7ButtonForegroundStyle:
   animation: animation
-  text: "7"
+  text: '7'
   <<: *szzf
 
 2Button:
   backgroundStyle: 2ButtonBackgroundStyle
   foregroundStyle:
     - 2ButtonForegroundStyle
-  action: { character: 2 }
+  action: {character: 2}
 
 2ButtonBackgroundStyle:
   animation: animation
@@ -750,14 +750,14 @@ backspaceButtonForegroundStyle:
 
 2ButtonForegroundStyle:
   animation: animation
-  text: "2"
+  text: '2'
   <<: *szzf
 
 5Button:
   backgroundStyle: 5ButtonBackgroundStyle
   foregroundStyle:
     - 5ButtonForegroundStyle
-  action: { character: 5 }
+  action: {character: 5}
 
 5ButtonBackgroundStyle:
   animation: animation
@@ -765,14 +765,14 @@ backspaceButtonForegroundStyle:
 
 5ButtonForegroundStyle:
   animation: animation
-  text: "5"
+  text: '5'
   <<: *szzf
 
 8Button:
   backgroundStyle: 8ButtonBackgroundStyle
   foregroundStyle:
     - 8ButtonForegroundStyle
-  action: { character: 8 }
+  action: {character: 8}
 
 8ButtonBackgroundStyle:
   animation: animation
@@ -780,14 +780,14 @@ backspaceButtonForegroundStyle:
 
 8ButtonForegroundStyle:
   animation: animation
-  text: "8"
+  text: '8'
   <<: *szzf
 
 0Button:
   backgroundStyle: 0ButtonBackgroundStyle
   foregroundStyle:
     - 0ButtonForegroundStyle
-  action: { character: 0 }
+  action: {character: 0}
 
 0ButtonBackgroundStyle:
   animation: animation
@@ -795,14 +795,14 @@ backspaceButtonForegroundStyle:
 
 0ButtonForegroundStyle:
   animation: animation
-  text: "0"
+  text: '0'
   <<: *szzf
 
 3Button:
   backgroundStyle: 3ButtonBackgroundStyle
   foregroundStyle:
     - 3ButtonForegroundStyle
-  action: { character: 3 }
+  action: {character: 3}
 
 3ButtonBackgroundStyle:
   animation: animation
@@ -810,14 +810,14 @@ backspaceButtonForegroundStyle:
 
 3ButtonForegroundStyle:
   animation: animation
-  text: "3"
+  text: '3'
   <<: *szzf
 
 6Button:
   backgroundStyle: 6ButtonBackgroundStyle
   foregroundStyle:
     - 6ButtonForegroundStyle
-  action: { character: 6 }
+  action: {character: 6}
 
 6ButtonBackgroundStyle:
   animation: animation
@@ -825,14 +825,14 @@ backspaceButtonForegroundStyle:
 
 6ButtonForegroundStyle:
   animation: animation
-  text: "6"
+  text: '6'
   <<: *szzf
 
 9Button:
   backgroundStyle: 9ButtonBackgroundStyle
   foregroundStyle:
     - 9ButtonForegroundStyle
-  action: { character: 9 }
+  action: {character: 9}
 
 9ButtonBackgroundStyle:
   animation: animation
@@ -840,69 +840,69 @@ backspaceButtonForegroundStyle:
 
 9ButtonForegroundStyle:
   animation: animation
-  text: "9"
+  text: '9'
   <<: *szzf
 
 加:
   backgroundStyle: 加BackgroundStyle
   foregroundStyle:
     - 加ForegroundStyle
-  action: { character: "+" }
+  action: {character: '+'}
 
 加BackgroundStyle:
   <<: *key_bg
 
 加ForegroundStyle:
   animation: animation
-  text: "+"
+  text: '+'
   <<: *yxfh_qj
 
 减:
   backgroundStyle: 减BackgroundStyle
   foregroundStyle:
     - 减ForegroundStyle
-  action: { character: "-" }
+  action: {character: '-'}
 
 减BackgroundStyle:
   <<: *key_bg
 
 减ForegroundStyle:
   animation: animation
-  text: "-"
+  text: '-'
   <<: *yxfh_qj
 
 乘:
   backgroundStyle: 乘BackgroundStyle
   foregroundStyle:
     - 乘ForegroundStyle
-  action: { character: "*" }
+  action: {character: '*'}
 
 乘BackgroundStyle:
   <<: *key_bg
 
 乘ForegroundStyle:
   animation: animation
-  text: "×"
+  text: '×'
   <<: *yxfh_qj
 
 除:
   backgroundStyle: 除BackgroundStyle
   foregroundStyle:
     - 除ForegroundStyle
-  action: { character: "/" }
+  action: {character: '/'}
 
 除BackgroundStyle:
   <<: *key_bg
 
 除ForegroundStyle:
   animation: animation
-  text: "÷"
+  text: '÷'
   <<: *yxfh_qj
 
 periodButton:
   backgroundStyle: periodButtonBackgroundStyle
   foregroundStyle: periodButtonForegroundStyle
-  action: { character: . }
+  action: {character: .}
 
 periodButtonBackgroundStyle:
   animation: animation
@@ -918,7 +918,7 @@ equalButton:
     height: 1/4
   backgroundStyle: equalButtonBackgroundStyle
   foregroundStyle: equalButtonForegroundStyle
-  action: { character: "=" }
+  action: {character: '='}
 
 equalButtonBackgroundStyle:
   animation: animation
@@ -926,1796 +926,667 @@ equalButtonBackgroundStyle:
 
 equalButtonForegroundStyle:
   animation: animation
-  text: "="
+  text: '='
   <<: *equal_qj
 
 dataSource:
-  category:
-    [
-      常用,
-      中文,
-      英文,
-      数学,
-      角标,
-      序号,
-      音标,
-      箭头,
-      特殊,
-      拼音,
-      注音,
-      竖标,
-      部首,
-      拉丁,
-      制表,
-      字体,
-    ]
+  category: [常用, 中文, 英文, 数学, 角标, 序号, 音标, 箭头, 特殊, 拼音, 注音, 竖标, 部首, 拉丁, 制表, 字体]
   常用:
-    - “”
-    - ‘’
-    - 《》
-    - 【】
-    - ［］
-    - '"'
-    - "'"
-    - "{}"
-    - "[]"
-    - <>
-    - 、
-    - ……
-    - ·
-    - www.
-    - .com
-    - \
-    - ^
-    - "{"
-    - "}"
-    - $
+  - “”
+  - ‘’
+  - 《》
+  - 【】
+  - ［］
+  - '"'
+  - "'"
+  - '{}'
+  - '[]'
+  - <>
+  - 、
+  - ……
+  - ·
+  - www.
+  - .com
+  - \
+  - ^
+  - '{'
+  - '}'
+  - $
   中文:
-    - 《》
-    - ‘’
-    - 〈〉
-    - ·
-    - "-"
-    - ˉ
-    - ˇ
-    - ¨
-    - 々
-    - ‖
-    - ∶
-    - ＂
-    - ＇
-    - ｀
-    - ｜
-    - 〃
-    - 〔〕
-    - 「」
-    - 『』
-    - ．
-    - 〖〗
-    - 【】
-    - ［］
-    - ｛｝
-    - ：
-    - ；
-    - （）
-    - ——
-    - “”
-    - ……
-    - ～
-    - 、
-    - ？
-    - ！
-    - ，
-    - 。
+  - 《》
+  - ‘’
+  - 〈〉
+  - ·
+  - '-'
+  - ˉ
+  - ˇ
+  - ¨
+  - 々
+  - ‖
+  - ∶
+  - ＂
+  - ＇
+  - ｀
+  - ｜
+  - 〃
+  - 〔〕
+  - 「」
+  - 『』
+  - ．
+  - 〖〗
+  - 【】
+  - ［］
+  - ｛｝
+  - ：
+  - ；
+  - （）
+  - ——
+  - “”
+  - ……
+  - ～
+  - 、
+  - ？
+  - ！
+  - ，
+  - 。
   英文:
-    - ","
-    - .
-    - "?"
-    - "!"
-    - ":"
-    - /
-    - "@"
-    - .
-    - .
-    - .
-    - '"'
-    - ;
-    - "'"
-    - "~"
-    - ()
-    - <>
-    - ()
-    - "[]"
-    - "{}"
-    - <>
-    - "*"
-    - "&"
-    - "["
-    - "]"
-    - '"'
-    - "`"
-    - "#"
-    - "%"
-    - ^
-    - _
-    - +
-    - "-"
-    - "="
-    - "{"
-    - "}"
-    - "|"
-    - ¥
-    - £
-    - €
-    - ﹉
-    - –
-    - .
-    - .
-    - ´
-    - ＂
-    - ＇
-    - ¢
-    - ฿
-  制表:
-    [
-      ┝,
-      ┞,
-      ┟,
-      ┠,
-      ┡,
-      ┢,
-      ═,
-      ╞,
-      ╟,
-      ╡,
-      ╢,
-      ╪,
-      ┭,
-      ┮,
-      ┯,
-      ┰,
-      ┱,
-      ┲,
-      ║,
-      ╤,
-      ╥,
-      ╧,
-      ╨,
-      ╫,
-      ┥,
-      ┦,
-      ┧,
-      ┨,
-      ┩,
-      ┪,
-      ┽,
-      ┾,
-      ┿,
-      ╀,
-      ╁,
-      ╂,
-      ┵,
-      ┶,
-      ┷,
-      ┸,
-      ┹,
-      ┺,
-      ╄,
-      ╅,
-      ╆,
-      ╇,
-      ╈,
-      ╉,
-      ┈,
-      ┉,
-      ┊,
-      ┋,
-      ╃,
-      ╊,
-      ┍,
-      ┑,
-      ┕,
-      ┙,
-      ┎,
-      ┒,
-      ┖,
-      ┚,
-      ╒,
-      ╕,
-      ╘,
-      ╛,
-      ╓,
-      ╖,
-      ╙,
-      ╜,
-      ┄,
-      ┅,
-      ┆,
-      ┇,
-      ┌,
-      ┬,
-      ┐,
-      ├,
-      ┼,
-      ┤,
-      └,
-      ┴,
-      ┘,
-      ┏,
-      ┳,
-      ┓,
-      ┣,
-      ╋,
-      ┫,
-      ┗,
-      ┻,
-      ┛,
-      ╔,
-      ╦,
-      ╗,
-      ╠,
-      ╬,
-      ╣,
-      ╚,
-      ╩,
-      ╝,
-    ]
-  序号:
-    [
-      ①,
-      ②,
-      ③,
-      ④,
-      ⑤,
-      ⑥,
-      ⑦,
-      ⑧,
-      ⑨,
-      ⑩,
-      ❶,
-      ❷,
-      ❸,
-      ❹,
-      ❺,
-      ❻,
-      ❼,
-      ❽,
-      ❾,
-      ❿,
-      ⓵,
-      ⓶,
-      ⓷,
-      ⓸,
-      ⓹,
-      ⓺,
-      ⓻,
-      ⓼,
-      ⓽,
-      ⓾,
-      ⒈,
-      ⒉,
-      ⒊,
-      ⒋,
-      ⒌,
-      ⒍,
-      ⒎,
-      ⒏,
-      ⒐,
-      ⒑,
-      ⑴,
-      ⑵,
-      ⑶,
-      ⑷,
-      ⑸,
-      ⑹,
-      ⑺,
-      ⑻,
-      ⑼,
-      ⑽,
-      ㈠,
-      ㈡,
-      ㈢,
-      ㈣,
-      ㈤,
-      ㈥,
-      ㈦,
-      ㈧,
-      ㈨,
-      ㈩,
-      壹,
-      贰,
-      叁,
-      肆,
-      伍,
-      陆,
-      柒,
-      捌,
-      玖,
-      拾,
-      佰,
-      仟,
-      萬,
-      億,
-      ⅰ,
-      ⅱ,
-      ⅲ,
-      ⅳ,
-      ⅴ,
-      ⅵ,
-      ⅶ,
-      ⅷ,
-      ⅸ,
-      ⅹ,
-      Ⅰ,
-      Ⅱ,
-      Ⅲ,
-      Ⅳ,
-      Ⅴ,
-      Ⅵ,
-      Ⅶ,
-      Ⅷ,
-      Ⅸ,
-      Ⅹ,
-      Ⅺ,
-      Ⅻ,
-    ]
-  拉丁:
-    [
-      À,
-      Á,
-      Â,
-      Ã,
-      Ä,
-      Å,
-      Ā,
-      Æ,
-      Ç,
-      È,
-      É,
-      Ê,
-      Ë,
-      Ē,
-      Ì,
-      Í,
-      Î,
-      Ï,
-      Ī,
-      Ð,
-      Ñ,
-      Ò,
-      Ó,
-      Ô,
-      Õ,
-      Ö,
-      Ō,
-      Ø,
-      Œ,
-      Ù,
-      Ú,
-      Û,
-      Ü,
-      Ū,
-      Ý,
-      Ÿ,
-      Þ,
-      Š,
-      à,
-      á,
-      â,
-      ã,
-      ä,
-      å,
-      æ,
-      ç,
-      è,
-      é,
-      ê,
-      ë,
-      ē,
-      ì,
-      í,
-      î,
-      ǐ,
-      ï,
-      ī,
-      ð,
-      ñ,
-      ò,
-      ó,
-      õ,
-      ǒ,
-      ô,
-      ö,
-      ō,
-      ø,
-      œ,
-      ù,
-      ú,
-      ǔ,
-      û,
-      ü,
-      ū,
-      ý,
-      þ,
-      š,
-      ÿ,
-    ]
-  拼音:
-    [ā, á, ǎ, à, ō, ó, ǒ, ò, ē, é, ě, è, ī, í, ǐ, ì, ū, ú, ǔ, ù, ǖ, ǘ, ǚ, ǜ, ü]
-  数学:
-    [
-      "=",
-      +,
-      "-",
-      ·,
-      /,
-      ×,
-      ÷,
-      ^,
-      ＞,
-      ＜,
-      ≥,
-      ≤,
-      ≮,
-      ≯,
-      ≡,
-      ≠,
-      ≈,
-      ≒,
-      ±,
-      √,
-      ³,
-      √,
-      π,
-      "%",
-      ‰,
-      ％,
-      ℅,
-      ½,
-      ⅓,
-      ⅔,
-      ¼,
-      ¾,
-      ∶,
-      ∵,
-      ∴,
-      ∷,
-      ㏒,
-      ㏑,
-      ∫,
-      ∬,
-      ∭,
-      ∮,
-      ∯,
-      ∰,
-      ∂,
-      ∑,
-      ∏,
-      ∈,
-      ∉,
-      ∅,
-      ⊂,
-      ⊃,
-      ⊆,
-      ⊇,
-      ⊄,
-      ⊅,
-      ⊊,
-      ⊈,
-      ⫋,
-      ⫌,
-      ∀,
-      ∃,
-      ∩,
-      ∪,
-      ∧,
-      ∨,
-      ⊙,
-      ⊕,
-      ∥,
-      ⊥,
-      ⌒,
-      ∟,
-      ∠,
-      △,
-      ⊿,
-      ∝,
-      ∽,
-      ∞,
-      ≌,
-      °,
-      ℃,
-      ℉,
-      ㎎,
-      ㎏,
-      μ,
-      m,
-      ㎜,
-      ㎝,
-      ㎞,
-      ㎡,
-      m,
-      ³,
-      ㏄,
-      ㏕,
-    ]
-  注音:
-    [
-      ㄅ,
-      ㄆ,
-      ㄇ,
-      ㄈ,
-      ㄉ,
-      ㄊ,
-      ㄋ,
-      ㄌ,
-      ㄍ,
-      ㄎ,
-      ㄏ,
-      ㄐ,
-      ㄑ,
-      ㄒ,
-      ㄓ,
-      ㄔ,
-      ㄕ,
-      ㄖ,
-      ㄗ,
-      ㄘ,
-      ㄙ,
-      ㄧ,
-      ㄨ,
-      ㄩ,
-      ㄚ,
-      ㄛ,
-      ㄜ,
-      ㄝ,
-      ㄞ,
-      ㄟ,
-      ㄠ,
-      ㄡ,
-      ㄢ,
-      ㄣ,
-      ㄤ,
-      ㄥ,
-      ㄦ,
-    ]
-  特殊:
-    [
-      △,
-      ▽,
-      ○,
-      ◇,
-      □,
-      ☆,
-      ▷,
-      ◁,
-      ♤,
-      ♡,
-      ♢,
-      ♧,
-      ▲,
-      ▼,
-      ●,
-      ◆,
-      ■,
-      ★,
-      ▶,
-      ◀,
-      ♠,
-      ♥,
-      ♦,
-      ♣,
-      囍,
-      ☼,
-      ☽,
-      ☺,
-      ◐,
-      ☑,
-      √,
-      ✔,
-      ㏂,
-      ☀,
-      ☾,
-      ♂,
-      ☹,
-      ◑,
-      ×,
-      ✕,
-      ✘,
-      ☚,
-      ☛,
-      ㏘,
-      ▪,
-      •,
-      ‥,
-      …,
-      ▁,
-      ▂,
-      ▃,
-      ▄,
-      ▅,
-      ▆,
-      ▇,
-      █,
-      ∷,
-      ※,
-      ░,
-      ▒,
-      ▓,
-      ▏,
-      ▎,
-      ▍,
-      ▌,
-      ▋,
-      ▊,
-      ▉,
-      ♩,
-      ♪,
-      ♫,
-      ♬,
-      §,
-      〼,
-      ◎,
-      ¤,
-      ۞,
-      ℗,
-      ®,
-      ©,
-      ♭,
-      ♯,
-      ♮,
-      ‖,
-      ¶,
-      卍,
-      卐,
-      ▬,
-      〓,
-      ℡,
-      ™,
-      ㏇,
-      ☌,
-      ☍,
-      ☋,
-      ☊,
-      ㉿,
-      ◮,
-      ◪,
-      ◔,
-      ◕,
-      "@",
-      ㈱,
-      №,
-      ♈,
-      ♉,
-      ♊,
-      ♋,
-      ♌,
-      ♎,
-      ♏,
-      ♐,
-      ♑,
-      ♓,
-      ♒,
-      ♍,
-      ☰,
-      ☱,
-      ☲,
-      ☳,
-      ☯,
-      ☴,
-      ☵,
-      ☶,
-      ☷,
-      "*",
-      ＊,
-      ✲,
-      ❈,
-      ❉,
-      ✿,
-      ❀,
-      ❃,
-      ❁,
-      ☸,
-      ✖,
-      ✚,
-      ✪,
-      ❤,
-      ღ,
-      ❦,
-      ❧,
-      ₪,
-      ✎,
-      ✍,
-      📝,
-      ✌,
-      ☁,
-      ☂,
-      ☃,
-      ☄,
-      ♨,
-      ☇,
-      ☈,
-      ☡,
-      ➷,
-      ⊹,
-      ✉,
-      ☏,
-      ☢,
-      ☣,
-      ☠,
-      ☮,
-      〄,
-      ➹,
-      ☩,
-      ஐ,
-      ☎,
-      ✈,
-      〠,
-      ۩,
-      ✙,
-      ✟,
-      ☤,
-      ☥,
-      ☦,
-      ☧,
-      ☨,
-      ☫,
-      ☬,
-      ♟,
-      ♙,
-      ♜,
-      ♖,
-      ♞,
-      ♘,
-      ♝,
-      ♗,
-      ♛,
-      ♕,
-      ♚,
-      ♔,
-      ✄,
-      ✁,
-      ✃,
-      ❥,
-      ✪,
-      ☒,
-      ❅,
-      ✣,
-      ✰,
-      ⚀,
-      ⚁,
-      ⚂,
-      ⚃,
-      ⚄,
-      ⚅,
-    ]
-  竖标:
-    [
-      ︐,
-      ︑,
-      ︒,
-      ︓,
-      ︔,
-      ︕,
-      ︖,
-      ︵,
-      ︶,
-      ︷,
-      ︸,
-      ︹,
-      ︺,
-      ︿,
-      ﹀,
-      ︽,
-      ︾,
-      ﹁,
-      ﹂,
-      ﹃,
-      ﹄,
-      ︻,
-      ︼,
-      ︗,
-      ︘,
-      _,
-      ¯,
-      ＿,
-      ￣,
-      ﹏,
-      ﹋,
-      ﹍,
-      ﹉,
-      ﹎,
-      ﹊,
-      ¦,
-      ︴,
-      ¡,
-      ¿,
-      ^,
-      ˇ,
-      ¨,
-      ˊ,
-    ]
-  箭头:
-    [
-      →,
-      ←,
-      ↑,
-      ↓,
-      ↖,
-      ↗,
-      ↙,
-      ↘,
-      ↔,
-      ↕,
-      ⇞,
-      ⇟,
-      ⇆,
-      ⇅,
-      ⇔,
-      ⇕,
-      ↰,
-      ↱,
-      ↲,
-      ↴,
-      ↶,
-      ↷,
-      ↺,
-      ↻,
-      ↜,
-      ↝,
-      ↞,
-      ↟,
-      ↠,
-      ↡,
-      ➺,
-      ➻,
-      ➼,
-      ➳,
-      ➽,
-      ➸,
-      ➹,
-      ➷,
-      ⇎,
-      ➠,
-      ↣,
-      ☞,
-      ☜,
-      ☟,
-      ⇦,
-      ⇧,
-      ⇨,
-      ⇩,
-      ⇪,
-      ➩,
-      ➪,
-      ➫,
-      ➬,
-      ➯,
-      ➱,
-      ➮,
-      ➭,
-      ➠,
-      ➡,
-      ➢,
-      ➣,
-      ➤,
-      ➥,
-      ➦,
-      ➧,
-      ➨,
-    ]
-  角标:
-    [
-      º,
-      ⁰,
-      ¹,
-      ²,
-      ³,
-      ⁴,
-      ⁵,
-      ⁶,
-      ⁷,
-      ⁸,
-      ⁹,
-      ⁱ,
-      ⁺,
-      ⁻,
-      ⁼,
-      ⁽,
-      ⁾,
-      ˣ,
-      ʸ,
-      ⁿ,
-      ᶻ,
-      ˢ,
-      ₀,
-      ₁,
-      ₂,
-      ₃,
-      ₄,
-      ₅,
-      ₆,
-      ₇,
-      ₈,
-      ₉,
-      ₊,
-      ₋,
-      ₌,
-      ₍,
-      ₎,
-      ₐ,
-      ₑ,
-      ₒ,
-      ₓ,
-      ᵧ,
-      ₔ,
-      ᴬ,
-      ᴮ,
-      ᶜ,
-      ᴰ,
-      ᴱ,
-      ᶠ,
-      ᴳ,
-      ᴴ,
-      ᴵ,
-      ᴶ,
-      ᴷ,
-      ᴸ,
-      ᴹ,
-      ᴺ,
-      ᴼ,
-      ᴾ,
-      ᶞ,
-      ᴿ,
-      ᵀ,
-      ᵁ,
-      ᵛ,
-      ᵂ,
-      ᵃ,
-      ᵇ,
-      ᶜ,
-      ᵈ,
-      ᵉ,
-      ᶠ,
-      ᵍ,
-      ʰ,
-      ⁱ,
-      ʲ,
-      ᵏ,
-      ˡ,
-      ᵐ,
-      ⁿ,
-      ᵒ,
-      ᵖ,
-      ʳ,
-      ˢ,
-      ᵗ,
-      ᵘ,
-      ᵛ,
-      ʷ,
-      ˣ,
-      ʸ,
-      ᶻ,
-    ]
-  部首:
-    [
-      丨,
-      亅,
-      丿,
-      乛,
-      一,
-      乙,
-      乚,
-      丶,
-      八,
-      勹,
-      匕,
-      冫,
-      卜,
-      厂,
-      刀,
-      刂,
-      儿,
-      二,
-      匚,
-      阝,
-      丷,
-      几,
-      卩,
-      冂,
-      力,
-      冖,
-      凵,
-      人,
-      亻,
-      入,
-      十,
-      厶,
-      亠,
-      匸,
-      讠,
-      廴,
-      又,
-      艹,
-      屮,
-      彳,
-      巛,
-      川,
-      辶,
-      寸,
-      大,
-      飞,
-      干,
-      工,
-      弓,
-      廾,
-      广,
-      己,
-      彐,
-      彑,
-      巾,
-      口,
-      马,
-      门,
-      宀,
-      女,
-      犭,
-      山,
-      彡,
-      尸,
-      饣,
-      士,
-      扌,
-      氵,
-      纟,
-      巳,
-      土,
-      囗,
-      兀,
-      夕,
-      小,
-      忄,
-      幺,
-      弋,
-      尢,
-      夂,
-      子,
-      贝,
-      比,
-      灬,
-      长,
-      车,
-      歹,
-      斗,
-      厄,
-      方,
-      风,
-      父,
-      戈,
-      卝,
-      户,
-      火,
-      旡,
-      见,
-      斤,
-      耂,
-      毛,
-      木,
-      肀,
-      牛,
-      牜,
-      爿,
-      片,
-      攴,
-      攵,
-      气,
-      欠,
-      犬,
-      日,
-      氏,
-      礻,
-      手,
-      殳,
-      水,
-      瓦,
-      尣,
-      王,
-      韦,
-      文,
-      毋,
-      心,
-      牙,
-      爻,
-      曰,
-      月,
-      爫,
-      支,
-      止,
-      爪,
-      白,
-      癶,
-      歺,
-      甘,
-      瓜,
-      禾,
-      钅,
-      立,
-      龙,
-      矛,
-      皿,
-      母,
-      目,
-      疒,
-      鸟,
-      皮,
-      生,
-      石,
-      矢,
-      示,
-      罒,
-      田,
-      玄,
-      穴,
-      疋,
-      业,
-      衤,
-      用,
-      玉,
-      耒,
-      艸,
-      臣,
-      虫,
-      而,
-      耳,
-      缶,
-      艮,
-      虍,
-      臼,
-      米,
-      齐,
-      肉,
-      色,
-      舌,
-      覀,
-      页,
-      先,
-      行,
-      血,
-      羊,
-      聿,
-      至,
-      舟,
-      衣,
-      竹,
-      自,
-      羽,
-      糸,
-      糹,
-      貝,
-      采,
-      镸,
-      車,
-      辰,
-      赤,
-      辵,
-      豆,
-      谷,
-      見,
-      角,
-      克,
-      里,
-      卤,
-      麦,
-      身,
-      豕,
-      辛,
-      言,
-      邑,
-      酉,
-      豸,
-      走,
-      足,
-      青,
-      靑,
-      雨,
-      齿,
-      長,
-      非,
-      阜,
-      金,
-      釒,
-      隶,
-      門,
-      靣,
-      飠,
-      鱼,
-      隹,
-      風,
-      革,
-      骨,
-      鬼,
-      韭,
-      面,
-      首,
-      韋,
-      香,
-      頁,
-      音,
-      髟,
-      鬯,
-      鬥,
-      高,
-      鬲,
-      馬,
-      黄,
-      鹵,
-      鹿,
-      麻,
-      麥,
-      鳥,
-      魚,
-      鼎,
-      黑,
-      黽,
-      黍,
-      黹,
-      鼓,
-      鼠,
-      鼻,
-      齊,
-      齒,
-      龍,
-      龠,
-    ]
-  音标:
-    [
-      ɑː,
-      "ɔ:",
-      ɜː,
-      "i:",
-      "u:",
-      ʌ,
-      ɒ,
-      ə,
-      ɪ,
-      ʊ,
-      e,
-      æ,
-      eɪ,
-      aɪ,
-      ɔɪ,
-      ɪə,
-      eə,
-      ʊə,
-      əʊ,
-      aʊ,
-      p,
-      t,
-      k,
-      f,
-      θ,
-      s,
-      b,
-      d,
-      g,
-      v,
-      ð,
-      z,
-      ʃ,
-      h,
-      ts,
-      tʃ,
-      j,
-      tr,
-      ʒ,
-      r,
-      dz,
-      dʒ,
-      dr,
-      w,
-      m,
-      n,
-      ŋ,
-      l,
-    ]
+  - ','
+  - .
+  - '?'
+  - '!'
+  - ':'
+  - /
+  - '@'
+  - .
+  - .
+  - .
+  - '"'
+  - ;
+  - "'"
+  - '~'
+  - ()
+  - <>
+  - ()
+  - '[]'
+  - '{}'
+  - <>
+  - '*'
+  - '&'
+  - '['
+  - ']'
+  - '"'
+  - '`'
+  - '#'
+  - '%'
+  - ^
+  - _
+  - +
+  - '-'
+  - '='
+  - '{'
+  - '}'
+  - '|'
+  - ¥
+  - £
+  - €
+  - ﹉
+  - –
+  - .
+  - .
+  - ´
+  - ＂
+  - ＇
+  - ¢
+  - ฿
+  制表: [┝, ┞, ┟, ┠, ┡, ┢, ═, ╞, ╟, ╡, ╢, ╪, ┭, ┮, ┯, ┰, ┱, ┲, ║, ╤, ╥, ╧, ╨, ╫, ┥,
+    ┦, ┧, ┨, ┩, ┪, ┽, ┾, ┿, ╀, ╁, ╂, ┵, ┶, ┷, ┸, ┹, ┺, ╄, ╅, ╆, ╇, ╈, ╉, ┈, ┉, ┊,
+    ┋, ╃, ╊, ┍, ┑, ┕, ┙, ┎, ┒, ┖, ┚, ╒, ╕, ╘, ╛, ╓, ╖, ╙, ╜, ┄, ┅, ┆, ┇, ┌, ┬, ┐,
+    ├, ┼, ┤, └, ┴, ┘, ┏, ┳, ┓, ┣, ╋, ┫, ┗, ┻, ┛, ╔, ╦, ╗, ╠, ╬, ╣, ╚, ╩, ╝]
+  序号: [①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⑩, ❶, ❷, ❸, ❹, ❺, ❻, ❼, ❽, ❾, ❿, ⓵, ⓶, ⓷, ⓸, ⓹,
+    ⓺, ⓻, ⓼, ⓽, ⓾, ⒈, ⒉, ⒊, ⒋, ⒌, ⒍, ⒎, ⒏, ⒐, ⒑, ⑴, ⑵, ⑶, ⑷, ⑸, ⑹, ⑺, ⑻, ⑼, ⑽, ㈠,
+    ㈡, ㈢, ㈣, ㈤, ㈥, ㈦, ㈧, ㈨, ㈩, 壹, 贰, 叁, 肆, 伍, 陆, 柒, 捌, 玖, 拾, 佰, 仟, 萬, 億, ⅰ, ⅱ, ⅲ,
+    ⅳ, ⅴ, ⅵ, ⅶ, ⅷ, ⅸ, ⅹ, Ⅰ, Ⅱ, Ⅲ, Ⅳ, Ⅴ, Ⅵ, Ⅶ, Ⅷ, Ⅸ, Ⅹ, Ⅺ, Ⅻ]
+  拉丁: [À, Á, Â, Ã, Ä, Å, Ā, Æ, Ç, È, É, Ê, Ë, Ē, Ì, Í, Î, Ï, Ī, Ð, Ñ, Ò, Ó, Ô, Õ,
+    Ö, Ō, Ø, Œ, Ù, Ú, Û, Ü, Ū, Ý, Ÿ, Þ, Š, à, á, â, ã, ä, å, æ, ç, è, é, ê, ë, ē,
+    ì, í, î, ǐ, ï, ī, ð, ñ, ò, ó, õ, ǒ, ô, ö, ō, ø, œ, ù, ú, ǔ, û, ü, ū, ý, þ, š,
+    ÿ]
+  拼音: [ā, á, ǎ, à, ō, ó, ǒ, ò, ē, é, ě, è, ī, í, ǐ, ì, ū, ú, ǔ, ù, ǖ, ǘ, ǚ, ǜ, ü]
+  数学: ['=', +, '-', ·, /, ×, ÷, ^, ＞, ＜, ≥, ≤, ≮, ≯, ≡, ≠, ≈, ≒, ±, √, ³, √, π, '%',
+    ‰, ％, ℅, ½, ⅓, ⅔, ¼, ¾, ∶, ∵, ∴, ∷, ㏒, ㏑, ∫, ∬, ∭, ∮, ∯, ∰, ∂, ∑, ∏, ∈, ∉, ∅,
+    ⊂, ⊃, ⊆, ⊇, ⊄, ⊅, ⊊, ⊈, ⫋, ⫌, ∀, ∃, ∩, ∪, ∧, ∨, ⊙, ⊕, ∥, ⊥, ⌒, ∟, ∠, △, ⊿, ∝,
+    ∽, ∞, ≌, °, ℃, ℉, ㎎, ㎏, μ, m, ㎜, ㎝, ㎞, ㎡, m, ³, ㏄, ㏕]
+  注音: [ㄅ, ㄆ, ㄇ, ㄈ, ㄉ, ㄊ, ㄋ, ㄌ, ㄍ, ㄎ, ㄏ, ㄐ, ㄑ, ㄒ, ㄓ, ㄔ, ㄕ, ㄖ, ㄗ, ㄘ, ㄙ, ㄧ, ㄨ, ㄩ, ㄚ,
+    ㄛ, ㄜ, ㄝ, ㄞ, ㄟ, ㄠ, ㄡ, ㄢ, ㄣ, ㄤ, ㄥ, ㄦ]
+  特殊: [△, ▽, ○, ◇, □, ☆, ▷, ◁, ♤, ♡, ♢, ♧, ▲, ▼, ●, ◆, ■, ★, ▶, ◀, ♠, ♥, ♦, ♣, 囍,
+    ☼, ☽, ☺, ◐, ☑, √, ✔, ㏂, ☀, ☾, ♂, ☹, ◑, ×, ✕, ✘, ☚, ☛, ㏘, ▪, •, ‥, …, ▁, ▂, ▃,
+    ▄, ▅, ▆, ▇, █, ∷, ※, ░, ▒, ▓, ▏, ▎, ▍, ▌, ▋, ▊, ▉, ♩, ♪, ♫, ♬, §, 〼, ◎, ¤, ۞,
+    ℗, ®, ©, ♭, ♯, ♮, ‖, ¶, 卍, 卐, ▬, 〓, ℡, ™, ㏇, ☌, ☍, ☋, ☊, ㉿, ◮, ◪, ◔, ◕, '@', ㈱,
+    №, ♈, ♉, ♊, ♋, ♌, ♎, ♏, ♐, ♑, ♓, ♒, ♍, ☰, ☱, ☲, ☳, ☯, ☴, ☵, ☶, ☷, '*', ＊, ✲, ❈,
+    ❉, ✿, ❀, ❃, ❁, ☸, ✖, ✚, ✪, ❤, ღ, ❦, ❧, ₪, ✎, ✍, 📝, ✌, ☁, ☂, ☃, ☄, ♨, ☇, ☈, ☡,
+    ➷, ⊹, ✉, ☏, ☢, ☣, ☠, ☮, 〄, ➹, ☩, ஐ, ☎, ✈, 〠, ۩, ✙, ✟, ☤, ☥, ☦, ☧, ☨, ☫, ☬, ♟,
+    ♙, ♜, ♖, ♞, ♘, ♝, ♗, ♛, ♕, ♚, ♔, ✄, ✁, ✃, ❥, ✪, ☒, ❅, ✣, ✰, ⚀, ⚁, ⚂, ⚃, ⚄, ⚅]
+  竖标: [︐, ︑, ︒, ︓, ︔, ︕, ︖, ︵, ︶, ︷, ︸, ︹, ︺, ︿, ﹀, ︽, ︾, ﹁, ﹂, ﹃, ﹄, ︻, ︼, ︗, ︘,
+    _, ¯, ＿, ￣, ﹏, ﹋, ﹍, ﹉, ﹎, ﹊, ¦, ︴, ¡, ¿, ^, ˇ, ¨, ˊ]
+  箭头: [→, ←, ↑, ↓, ↖, ↗, ↙, ↘, ↔, ↕, ⇞, ⇟, ⇆, ⇅, ⇔, ⇕, ↰, ↱, ↲, ↴, ↶, ↷, ↺, ↻, ↜,
+    ↝, ↞, ↟, ↠, ↡, ➺, ➻, ➼, ➳, ➽, ➸, ➹, ➷, ⇎, ➠, ↣, ☞, ☜, ☟, ⇦, ⇧, ⇨, ⇩, ⇪, ➩, ➪,
+    ➫, ➬, ➯, ➱, ➮, ➭, ➠, ➡, ➢, ➣, ➤, ➥, ➦, ➧, ➨]
+  角标: [º, ⁰, ¹, ², ³, ⁴, ⁵, ⁶, ⁷, ⁸, ⁹, ⁱ, ⁺, ⁻, ⁼, ⁽, ⁾, ˣ, ʸ, ⁿ, ᶻ, ˢ, ₀, ₁, ₂,
+    ₃, ₄, ₅, ₆, ₇, ₈, ₉, ₊, ₋, ₌, ₍, ₎, ₐ, ₑ, ₒ, ₓ, ᵧ, ₔ, ᴬ, ᴮ, ᶜ, ᴰ, ᴱ, ᶠ, ᴳ, ᴴ,
+    ᴵ, ᴶ, ᴷ, ᴸ, ᴹ, ᴺ, ᴼ, ᴾ, ᶞ, ᴿ, ᵀ, ᵁ, ᵛ, ᵂ, ᵃ, ᵇ, ᶜ, ᵈ, ᵉ, ᶠ, ᵍ, ʰ, ⁱ, ʲ, ᵏ, ˡ,
+    ᵐ, ⁿ, ᵒ, ᵖ, ʳ, ˢ, ᵗ, ᵘ, ᵛ, ʷ, ˣ, ʸ, ᶻ]
+  部首: [丨, 亅, 丿, 乛, 一, 乙, 乚, 丶, 八, 勹, 匕, 冫, 卜, 厂, 刀, 刂, 儿, 二, 匚, 阝, 丷, 几, 卩, 冂, 力,
+    冖, 凵, 人, 亻, 入, 十, 厶, 亠, 匸, 讠, 廴, 又, 艹, 屮, 彳, 巛, 川, 辶, 寸, 大, 飞, 干, 工, 弓, 廾, 广,
+    己, 彐, 彑, 巾, 口, 马, 门, 宀, 女, 犭, 山, 彡, 尸, 饣, 士, 扌, 氵, 纟, 巳, 土, 囗, 兀, 夕, 小, 忄, 幺,
+    弋, 尢, 夂, 子, 贝, 比, 灬, 长, 车, 歹, 斗, 厄, 方, 风, 父, 戈, 卝, 户, 火, 旡, 见, 斤, 耂, 毛, 木, 肀,
+    牛, 牜, 爿, 片, 攴, 攵, 气, 欠, 犬, 日, 氏, 礻, 手, 殳, 水, 瓦, 尣, 王, 韦, 文, 毋, 心, 牙, 爻, 曰, 月,
+    爫, 支, 止, 爪, 白, 癶, 歺, 甘, 瓜, 禾, 钅, 立, 龙, 矛, 皿, 母, 目, 疒, 鸟, 皮, 生, 石, 矢, 示, 罒, 田,
+    玄, 穴, 疋, 业, 衤, 用, 玉, 耒, 艸, 臣, 虫, 而, 耳, 缶, 艮, 虍, 臼, 米, 齐, 肉, 色, 舌, 覀, 页, 先, 行,
+    血, 羊, 聿, 至, 舟, 衣, 竹, 自, 羽, 糸, 糹, 貝, 采, 镸, 車, 辰, 赤, 辵, 豆, 谷, 見, 角, 克, 里, 卤, 麦,
+    身, 豕, 辛, 言, 邑, 酉, 豸, 走, 足, 青, 靑, 雨, 齿, 長, 非, 阜, 金, 釒, 隶, 門, 靣, 飠, 鱼, 隹, 風, 革,
+    骨, 鬼, 韭, 面, 首, 韋, 香, 頁, 音, 髟, 鬯, 鬥, 高, 鬲, 馬, 黄, 鹵, 鹿, 麻, 麥, 鳥, 魚, 鼎, 黑, 黽, 黍,
+    黹, 鼓, 鼠, 鼻, 齊, 齒, 龍, 龠]
+  音标: [ɑː, 'ɔ:', ɜː, 'i:', 'u:', ʌ, ɒ, ə, ɪ, ʊ, e, æ, eɪ, aɪ, ɔɪ, ɪə, eə, ʊə, əʊ,
+    aʊ, p, t, k, f, θ, s, b, d, g, v, ð, z, ʃ, h, ts, tʃ, j, tr, ʒ, r, dz, dʒ, dr,
+    w, m, n, ŋ, l]
   字体:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+

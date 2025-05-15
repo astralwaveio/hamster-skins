@@ -10,15 +10,15 @@
 展开文字字体大小: &FontSize_xlwz 1.125em
 展开注释字体大小: &FontSize_xlvu 0.75em
 
-编码色: &preedit_textColor "000000"
+编码色: &preedit_textColor '000000'
 首选色: &textfirst_color 1fb382
-次选色: &text_Color "000000"
+次选色: &text_Color '000000'
 首选背景色: &textfirstBackgroundColor F8F9F9
 
-按键字符色: &key_textcolor1 "000000"
+按键字符色: &key_textcolor1 '000000'
 角标色: &key_textcolor2 A7AEB9
 返回键字符色1: &return_textcolor1 FEFEFE
-返回键字符色2: &return_textcolor2 "000000"
+返回键字符色2: &return_textcolor2 '000000'
 
 工具栏图标字符样式: &gjltb
   fontSize: 1.125em
@@ -141,37 +141,37 @@ backspace前景:
 preeditBackgroundStyle:
   normalImage:
     file: bg
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: bg
-    image: SafariIcon
+    image: IMG1
 
 #工具栏背景
 toolbarBackgroundStyle:
   normalImage:
     file: bg
-    image: AmapIcon
+    image: IMG2
   highlightImage:
     file: bg
-    image: AmapIcon
+    image: IMG2
 
 #键盘区背景
 keyboardBackgroundStyle:
   normalImage:
     file: bg
-    image: BilibiliIcon
+    image: IMG3
   highlightImage:
     file: bg
-    image: BilibiliIcon
+    image: IMG3
 
 #展开后选背景
 verticalCandidateBackgroundStyle:
   normalImage:
     file: bg
-    image: YouTubeIcon
+    image: IMG4
   highlightImage:
     file: bg
-    image: YouTubeIcon
+    image: IMG4
 
 #按键背景动画
 animation:
@@ -191,7 +191,7 @@ toolbarHeight: *toolbar_Height
 keyboardHeight: *keyboard_Height
 
 preedit:
-  insets: { left: 10, top: 2 }
+  insets: {left: 10, top: 2}
   backgroundStyle: preeditBackgroundStyle
   foregroundStyle: preeditForegroundStyle
 
@@ -218,7 +218,7 @@ primaryButtonStyle:
   foregroundStyle:
     - 圆
     - primaryButtonForegroundStyle
-  action: { floatKeyboardType: floatconfig }
+  action: {floatKeyboardType: floatconfig}
 
 toolbarButtonBackgroundStyle:
   normalColor: 00000000
@@ -227,19 +227,19 @@ toolbarButtonBackgroundStyle:
 圆:
   normalImage:
     file: 圆形
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: 圆形
-    image: SafariIcon
+    image: IMG1
   targetScale: 1.1
 
 primaryButtonForegroundStyle:
   normalImage:
     file: 设置
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: 设置
-    image: SafariIcon
+    image: IMG1
   targetScale: *toolbarButton_targetScale
 
 toolbarButtonHideStyle:
@@ -258,7 +258,7 @@ toolbarButton1Style:
   foregroundStyle:
     - 圆
     - toolbarButton1ForegroundStyle
-  action: { shortcutCommand: "#showPasteboardView" }
+  action: {shortcutCommand: '#showPasteboardView'}
 
 toolbarButton1ForegroundStyle:
   text: 
@@ -269,7 +269,7 @@ toolbarButton2Style:
   foregroundStyle:
     - 圆
     - toolbarButton2ForegroundStyle
-  action: { shortcutCommand: "#showPhraseView" }
+  action: {shortcutCommand: '#showPhraseView'}
 
 toolbarButton2ForegroundStyle:
   text: 
@@ -280,7 +280,7 @@ toolbarButton3Style:
   foregroundStyle:
     - 圆
     - toolbarButton3ForegroundStyle
-  action: { shortcutCommand: "#RimeSwitcher" }
+  action: {shortcutCommand: '#RimeSwitcher'}
 
 toolbarButton3ForegroundStyle:
   text: 
@@ -291,7 +291,7 @@ toolbarButton4Style:
   foregroundStyle:
     - 圆
     - toolbarButton4ForegroundStyle
-  action: { floatKeyboardType: floatsearch }
+  action: {floatKeyboardType: floatsearch}
 
 toolbarButton4ForegroundStyle:
   text: 
@@ -302,7 +302,7 @@ toolbarButton5Style:
   foregroundStyle:
     - 圆
     - toolbarButton5ForegroundStyle
-  action: { runTranslateScript: 智谱翻译 }
+  action: {runTranslateScript: 智谱翻译}
 
 toolbarButton5ForegroundStyle:
   text: 
@@ -313,14 +313,14 @@ toolbarButton6Style:
   foregroundStyle:
     - 圆
     - toolbarButton6ForegroundStyle
-  action: { openURL: hamster://dev.fuxiao.app.hamster/keyboardSkins }
+  action: {openURL: hamster://dev.fuxiao.app.hamster/keyboardSkins}
 
 toolbarButton6ForegroundStyle:
   text: 
   <<: *gjltb
 
 horizontalCandidateStyle:
-  insets: { left: 5, top: 5, bottom: 5 }
+  insets: {left: 5, top: 5, bottom: 5}
   candidateStateButtonStyle: candidateStateButtonStyle
   highlightBackgroundColor: 00000000
   preferredBackgroundColor: *textfirstBackgroundColor
@@ -344,7 +344,7 @@ candidateStateButtonForegroundStyle:
   <<: *vktb
 
 verticalCandidateStyle:
-  insets: { top: 3, bottom: 3, left: 4, right: 4 }
+  insets: {top: 3, bottom: 3, left: 4, right: 4}
   bottomRowHeight: 43
   backgroundStyle: verticalCandidateBackgroundStyle
   candidateStyle: verticalCandidateOfCandidateStyle
@@ -354,7 +354,7 @@ verticalCandidateStyle:
   backspaceButtonStyle: verticalCandidateBackspaceButtonStyle
 
 verticalCandidateOfCandidateStyle:
-  insets: { top: 3, bottom: 6, left: 8, right: 8 }
+  insets: {top: 3, bottom: 6, left: 8, right: 8}
   cornerRadius: 7
   backgroundColor: *zkhxbj
   separatorColor: 00000000
@@ -376,7 +376,7 @@ verticalCandidatePageUpButtonStyle:
 
 verticalCandidateButtonBackgroundStyle:
   <<: *Function_bg
-  insets: { top: 3, left: 8, bottom: 3, right: 8 }
+  insets: {top: 3, left: 8, bottom: 3, right: 8}
 
 verticalCandidatePageUpButtonForegroundStyle:
   text: 
@@ -422,7 +422,7 @@ keyboardLayout:
         - Cell: backspaceButton
 
 keyboardStyle:
-  insets: { top: 1 }
+  insets: {top: 1}
   backgroundStyle: keyboardBackgroundStyle
 
 HStackStyle:
@@ -2090,8 +2090,8 @@ dataSource:
     - ➗
     - 🟰
     - ♾️
-    - "!!️"
-    - "!?️"
+    - '!!️'
+    - '!?️'
     - ❓
     - ❔
     - ❕
@@ -2120,8 +2120,8 @@ dataSource:
     - ©️
     - ®️
     - TM️
-    - "#️⃣"
-    - "*️⃣"
+    - '#️⃣'
+    - '*️⃣'
     - 0️⃣
     - 1️⃣
     - 2️⃣

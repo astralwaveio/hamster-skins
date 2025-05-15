@@ -56,7 +56,7 @@
   insets: *insets
   type: original
   normalColor: BBBBBB66
-  highlightColor: "66666666"
+  highlightColor: '66666666'
   cornerRadius: 7
   normalLowerEdgeColor: 00000099
   highlightLowerEdgeColor: 00000099
@@ -67,7 +67,7 @@
 功能键背景: &Function_bg
   insets: *insets
   type: original
-  normalColor: "55555566"
+  normalColor: '55555566'
   highlightColor: BBBBBB66
   cornerRadius: 7
   normalLowerEdgeColor: 00000099
@@ -158,37 +158,37 @@ emoji前景: &emoji_qj
 preeditBackgroundStyle:
   normalImage:
     file: tm
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: tm
-    image: SafariIcon
+    image: IMG1
 
 #工具栏背景
 toolbarBackgroundStyle:
   normalImage:
     file: tm
-    image: AmapIcon
+    image: IMG2
   highlightImage:
     file: tm
-    image: AmapIcon
+    image: IMG2
 
 #键盘区背景
 keyboardBackgroundStyle:
   normalImage:
     file: tm
-    image: BilibiliIcon
+    image: IMG3
   highlightImage:
     file: tm
-    image: BilibiliIcon
+    image: IMG3
 
 #展开后选背景
 verticalCandidateBackgroundStyle:
   normalImage:
     file: tm
-    image: YouTubeIcon
+    image: IMG4
   highlightImage:
     file: tm
-    image: YouTubeIcon
+    image: IMG4
 
 #按键背景动画
 animation:
@@ -208,7 +208,7 @@ toolbarHeight: *toolbar_Height
 keyboardHeight: *keyboard_Height
 
 preedit:
-  insets: { left: 10, top: 2 }
+  insets: {left: 10, top: 2}
   backgroundStyle: preeditBackgroundStyle
   foregroundStyle: preeditForegroundStyle
 
@@ -235,7 +235,7 @@ primaryButtonStyle:
   foregroundStyle:
     - 圆
     - primaryButtonForegroundStyle
-  action: { floatKeyboardType: floatconfig }
+  action: {floatKeyboardType: floatconfig}
 
 toolbarButtonBackgroundStyle:
   normalColor: 00000000
@@ -244,19 +244,19 @@ toolbarButtonBackgroundStyle:
 圆:
   normalImage:
     file: 圆形
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: 圆形
-    image: SafariIcon
+    image: IMG1
   targetScale: 1.1
 
 primaryButtonForegroundStyle:
   normalImage:
     file: 设置
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: 设置
-    image: SafariIcon
+    image: IMG1
   targetScale: *toolbarButton_targetScale
 
 toolbarButtonHideStyle:
@@ -275,7 +275,7 @@ toolbarButton1Style:
   foregroundStyle:
     - 圆
     - toolbarButton1ForegroundStyle
-  action: { shortcutCommand: "#showPasteboardView" }
+  action: {shortcutCommand: '#showPasteboardView'}
 
 toolbarButton1ForegroundStyle:
   text: 
@@ -286,7 +286,7 @@ toolbarButton2Style:
   foregroundStyle:
     - 圆
     - toolbarButton2ForegroundStyle
-  action: { shortcutCommand: "#showPhraseView" }
+  action: {shortcutCommand: '#showPhraseView'}
 
 toolbarButton2ForegroundStyle:
   text: 
@@ -297,7 +297,7 @@ toolbarButton3Style:
   foregroundStyle:
     - 圆
     - toolbarButton3ForegroundStyle
-  action: { shortcutCommand: "#RimeSwitcher" }
+  action: {shortcutCommand: '#RimeSwitcher'}
 
 toolbarButton3ForegroundStyle:
   text: 
@@ -308,7 +308,7 @@ toolbarButton4Style:
   foregroundStyle:
     - 圆
     - toolbarButton4ForegroundStyle
-  action: { floatKeyboardType: floatsearch }
+  action: {floatKeyboardType: floatsearch}
 
 toolbarButton4ForegroundStyle:
   text: 
@@ -319,7 +319,7 @@ toolbarButton5Style:
   foregroundStyle:
     - 圆
     - toolbarButton5ForegroundStyle
-  action: { runTranslateScript: 智谱翻译 }
+  action: {runTranslateScript: 智谱翻译}
 
 toolbarButton5ForegroundStyle:
   text: 
@@ -330,14 +330,14 @@ toolbarButton6Style:
   foregroundStyle:
     - 圆
     - toolbarButton6ForegroundStyle
-  action: { openURL: hamster://dev.fuxiao.app.hamster/keyboardSkins }
+  action: {openURL: hamster://dev.fuxiao.app.hamster/keyboardSkins}
 
 toolbarButton6ForegroundStyle:
   text: 
   <<: *gjltb
 
 horizontalCandidateStyle:
-  insets: { left: 5, top: 5, bottom: 5 }
+  insets: {left: 5, top: 5, bottom: 5}
   candidateStateButtonStyle: candidateStateButtonStyle
   highlightBackgroundColor: 00000000
   preferredBackgroundColor: *textfirstBackgroundColor
@@ -361,7 +361,7 @@ candidateStateButtonForegroundStyle:
   <<: *vktb
 
 verticalCandidateStyle:
-  insets: { top: 3, bottom: 3, left: 4, right: 4 }
+  insets: {top: 3, bottom: 3, left: 4, right: 4}
   bottomRowHeight: 43
   backgroundStyle: verticalCandidateBackgroundStyle
   candidateStyle: verticalCandidateOfCandidateStyle
@@ -371,7 +371,7 @@ verticalCandidateStyle:
   backspaceButtonStyle: verticalCandidateBackspaceButtonStyle
 
 verticalCandidateOfCandidateStyle:
-  insets: { top: 3, bottom: 6, left: 8, right: 8 }
+  insets: {top: 3, bottom: 6, left: 8, right: 8}
   cornerRadius: 7
   backgroundColor: *zkhxbj
   separatorColor: 00000000
@@ -393,7 +393,7 @@ verticalCandidatePageUpButtonStyle:
 
 verticalCandidateButtonBackgroundStyle:
   <<: *key_bg
-  insets: { top: 3, left: 8, bottom: 3, right: 8 }
+  insets: {top: 3, left: 8, bottom: 3, right: 8}
 
 verticalCandidatePageUpButtonForegroundStyle:
   text: 
@@ -457,7 +457,7 @@ keyboardLayout:
         - Cell: enterButton
 
 keyboardStyle:
-  insets: { top: 2, bottom: 1 }
+  insets: {top: 2, bottom: 1}
   backgroundStyle: keyboardBackgroundStyle
 
 VStackStyle:
@@ -505,7 +505,7 @@ returnButtonForegroundStyle:
   backgroundStyle: 1ButtonBackgroundStyle
   foregroundStyle:
     - 1ButtonForegroundStyle
-  action: { character: 1 }
+  action: {character: 1}
 
 1ButtonBackgroundStyle:
   animation: animation
@@ -513,14 +513,14 @@ returnButtonForegroundStyle:
 
 1ButtonForegroundStyle:
   animation: animation
-  text: "1"
+  text: '1'
   <<: *zf
 
 4Button:
   backgroundStyle: 4ButtonBackgroundStyle
   foregroundStyle:
     - 4ButtonForegroundStyle
-  action: { character: 4 }
+  action: {character: 4}
 
 4ButtonBackgroundStyle:
   animation: animation
@@ -528,14 +528,14 @@ returnButtonForegroundStyle:
 
 4ButtonForegroundStyle:
   animation: animation
-  text: "4"
+  text: '4'
   <<: *zf
 
 7Button:
   backgroundStyle: 7ButtonBackgroundStyle
   foregroundStyle:
     - 7ButtonForegroundStyle
-  action: { character: 7 }
+  action: {character: 7}
 
 7ButtonBackgroundStyle:
   animation: animation
@@ -543,15 +543,15 @@ returnButtonForegroundStyle:
 
 7ButtonForegroundStyle:
   animation: animation
-  text: "7"
+  text: '7'
   <<: *zf
 
 symbolButton:
   backgroundStyle: symbolButtonBackgroundStyle
   foregroundStyle:
     - symbolButtonForegroundStyle
-  action: { keyboardType: symbolic }
-  swipeUpAction: { keyboardType: emoji }
+  action: {keyboardType: symbolic}
+  swipeUpAction: {keyboardType: emoji}
 
 symbolButtonBackgroundStyle:
   animation: animation
@@ -566,7 +566,7 @@ symbolButtonForegroundStyle:
   backgroundStyle: 2ButtonBackgroundStyle
   foregroundStyle:
     - 2ButtonForegroundStyle
-  action: { character: 2 }
+  action: {character: 2}
 
 2ButtonBackgroundStyle:
   animation: animation
@@ -574,14 +574,14 @@ symbolButtonForegroundStyle:
 
 2ButtonForegroundStyle:
   animation: animation
-  text: "2"
+  text: '2'
   <<: *zf
 
 5Button:
   backgroundStyle: 5ButtonBackgroundStyle
   foregroundStyle:
     - 5ButtonForegroundStyle
-  action: { character: 5 }
+  action: {character: 5}
 
 5ButtonBackgroundStyle:
   animation: animation
@@ -589,14 +589,14 @@ symbolButtonForegroundStyle:
 
 5ButtonForegroundStyle:
   animation: animation
-  text: "5"
+  text: '5'
   <<: *zf
 
 8Button:
   backgroundStyle: 8ButtonBackgroundStyle
   foregroundStyle:
     - 8ButtonForegroundStyle
-  action: { character: 8 }
+  action: {character: 8}
 
 8ButtonBackgroundStyle:
   animation: animation
@@ -604,14 +604,14 @@ symbolButtonForegroundStyle:
 
 8ButtonForegroundStyle:
   animation: animation
-  text: "8"
+  text: '8'
   <<: *zf
 
 0Button:
   backgroundStyle: 0ButtonBackgroundStyle
   foregroundStyle:
     - 0ButtonForegroundStyle
-  action: { character: 0 }
+  action: {character: 0}
 
 0ButtonBackgroundStyle:
   animation: animation
@@ -619,14 +619,14 @@ symbolButtonForegroundStyle:
 
 0ButtonForegroundStyle:
   animation: animation
-  text: "0"
+  text: '0'
   <<: *zf
 
 3Button:
   backgroundStyle: 3ButtonBackgroundStyle
   foregroundStyle:
     - 3ButtonForegroundStyle
-  action: { character: 3 }
+  action: {character: 3}
 
 3ButtonBackgroundStyle:
   animation: animation
@@ -634,14 +634,14 @@ symbolButtonForegroundStyle:
 
 3ButtonForegroundStyle:
   animation: animation
-  text: "3"
+  text: '3'
   <<: *zf
 
 6Button:
   backgroundStyle: 6ButtonBackgroundStyle
   foregroundStyle:
     - 6ButtonForegroundStyle
-  action: { character: 6 }
+  action: {character: 6}
 
 6ButtonBackgroundStyle:
   animation: animation
@@ -649,14 +649,14 @@ symbolButtonForegroundStyle:
 
 6ButtonForegroundStyle:
   animation: animation
-  text: "6"
+  text: '6'
   <<: *zf
 
 9Button:
   backgroundStyle: 9ButtonBackgroundStyle
   foregroundStyle:
     - 9ButtonForegroundStyle
-  action: { character: 9 }
+  action: {character: 9}
 
 9ButtonBackgroundStyle:
   animation: animation
@@ -664,13 +664,13 @@ symbolButtonForegroundStyle:
 
 9ButtonForegroundStyle:
   animation: animation
-  text: "9"
+  text: '9'
   <<: *zf
 
 periodButton:
   backgroundStyle: periodButtonBackgroundStyle
   foregroundStyle: periodButtonForegroundStyle
-  action: { character: . }
+  action: {character: .}
 
 periodButtonBackgroundStyle:
   animation: animation
@@ -713,7 +713,7 @@ spaceButtonForegroundStyle:
 emojiButton:
   backgroundStyle: emojiButtonBackgroundStyle
   foregroundStyle: emojiButtonForegroundStyle
-  action: { keyboardType: emoji }
+  action: {keyboardType: emoji}
 
 emojiButtonBackgroundStyle:
   animation: animation
@@ -744,8 +744,8 @@ enterButton:
       return "黑色回车前景";
     }
   action: enter
-  swipeUpAction: { shortcutCommand: "#换行" }
-  swipeDownAction: { shortcutCommand: "#方案切换" }
+  swipeUpAction: {shortcutCommand: '#换行'}
+  swipeDownAction: {shortcutCommand: '#方案切换'}
 
 绿色回车背景:
   animation: animation
@@ -815,19 +815,19 @@ enterButton:
 
 dataSource:
   symbols:
-    - "="
+    - '='
     - +
-    - "-"
-    - "*"
+    - '-'
+    - '*'
     - /
     - (
     - )
-    - "@"
-    - ":"
-    - ","
-    - "#"
-    - "%"
-    - ":"
+    - '@'
+    - ':'
+    - ','
+    - '#'
+    - '%'
+    - ':'
     - _
-    - "?"
+    - '?'
     - ￥
