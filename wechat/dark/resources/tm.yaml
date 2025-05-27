@@ -1,27 +1,28 @@
-SafariIcon:
+IMG1:
   rect:
     x: 0
     y: 0
     width: 900
     height: 57
-
-AmapIcon:
+    
+IMG2:
   rect:
     x: 0
     y: 57
     width: 900
     height: 87
-
-BilibiliIcon:
+    
+IMG3:
   rect:
     x: 0
     y: 144
     width: 900
     height: 491
-
-YouTubeIcon:
+    
+IMG4:
   rect:
     x: 0
     y: 57
     width: 900
     height: 578
+    

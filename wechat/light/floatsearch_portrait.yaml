@@ -23,7 +23,7 @@ floatTargetScale:
   y: 0.45
 
 keyboardStyle:
-  insets: { top: 8, left: 8, bottom: 8, right: 8 }
+  insets: {top: 8, left: 8, bottom: 8, right: 8}
   backgroundStyle: keyboardBackgroundStyle
 
 keyboardBackgroundStyle:
@@ -38,171 +38,161 @@ keyboardBackgroundStyle:
   size:
     height: 1/4
   backgroundStyle: 1_ButtonBackgroundStyle
-  action:
-    {
-      openURL: youtube://results?search_query=#pasteboardContent,
-    }
+  action: {openURL: https://cn.bing.com/search?q=#selectText}
 
 1_ButtonBackgroundStyle:
   animation: animation
   normalImage:
     file: 图标
-    image: YouTubeIcon
+    image: IMG4
   highlightImage:
     file: 图标
-    image: YouTubeIcon
+    image: IMG4
   <<: *ub
 
 2_Button:
   size:
     height: 1/4
   backgroundStyle: 2_ButtonBackgroundStyle
-  action: { openURL: https://www.google.com/search?q=#selectText }
+  action: {openURL: https://www.baidu.com/s?wd=#selectText}
 
 2_ButtonBackgroundStyle:
   animation: animation
   normalImage:
     file: 图标
-    image: SafariIcon
+    image: IMG1
   highlightImage:
     file: 图标
-    image: SafariIcon
+    image: IMG1
   <<: *ub
 
 3_Button:
   size:
     height: 1/4
   backgroundStyle: 3_ButtonBackgroundStyle
-  action: { openURL: taobao://s.taobao.com?q=#pasteboardContent }
+  action: {openURL: taobao://s.taobao.com?q=#pasteboardContent}
 
 3_ButtonBackgroundStyle:
   animation: animation
   normalImage:
     file: 图标
-    image: TaobaoIcon
+    image: IMG8
   highlightImage:
     file: 图标
-    image: TaobaoIcon
+    image: IMG8
   <<: *ub
 
 4_Button:
   size:
     height: 1/4
   backgroundStyle: 4_ButtonBackgroundStyle
-  action:
-    {
-      openURL:
-        'openapp.jdmobile://virtual?params={"des":"productList",
-        "keyWord":"#pasteboardContent", "from":"search", "category":"jump"}',
-    }
+  action: {openURL: 'openapp.jdmobile://virtual?params={"des":"productList", "keyWord":"#pasteboardContent",
+      "from":"search", "category":"jump"}'}
 
 4_ButtonBackgroundStyle:
   animation: animation
   normalImage:
     file: 图标
-    image: JDIcon
+    image: IMG7
   highlightImage:
     file: 图标
-    image: JDIcon
+    image: IMG7
   <<: *ub
 
 5_Button:
   size:
     height: 1/4
   backgroundStyle: 5_ButtonBackgroundStyle
-  action: { openURL: snssdk1128://search?keyword=#pasteboardContent }
+  action: {openURL: snssdk1128://search?keyword=#pasteboardContent}
 
 5_ButtonBackgroundStyle:
   animation: animation
   normalImage:
     file: 图标
-    image: TikTokIcon
+    image: IMG5
   highlightImage:
     file: 图标
-    image: TikTokIcon
+    image: IMG5
   <<: *ub
 
 6_Button:
   size:
     height: 1/4
   backgroundStyle: 6_ButtonBackgroundStyle
-  action: { openURL: qqmusic://qq.com/ui/recognize }
+  action: {openURL: xhsdiscover://search/result?keyword=#pasteboardContent}
 
 6_ButtonBackgroundStyle:
   animation: animation
   normalImage:
     file: 图标
-    image: QQMusicIcon
+    image: IMG9
   highlightImage:
     file: 图标
-    image: QQMusicIcon
+    image: IMG9
   <<: *ub
 
 7_Button:
   size:
     height: 1/4
   backgroundStyle: 7_ButtonBackgroundStyle
-  action: { openURL: zhihu://search?q=#pasteboardContent }
+  action: {openURL: zhihu://search?q=#pasteboardContent}
 
 7_ButtonBackgroundStyle:
   animation: animation
   normalImage:
     file: 图标
-    image: ZhihuIcon
+    image: IMG10
   highlightImage:
     file: 图标
-    image: ZhihuIcon
+    image: IMG10
   <<: *ub
 
 8_Button:
   size:
     height: 1/4
   backgroundStyle: 8_ButtonBackgroundStyle
-  action: { openURL: bilibili://search?keyword=#pasteboardContent }
+  action: {openURL: bilibili://search?keyword=#pasteboardContent}
 
 8_ButtonBackgroundStyle:
   animation: animation
   normalImage:
     file: 图标
-    image: BilibiliIcon
+    image: IMG3
   highlightImage:
     file: 图标
-    image: BilibiliIcon
+    image: IMG3
   <<: *ub
 
 9_Button:
   size:
     height: 1/4
   backgroundStyle: 9_ButtonBackgroundStyle
-  action: { openURL: weixin://scanqrcode }
+  action: {openURL: iosamap://poi?sourceApplication=applicationName&name=#pasteboardContent}
 
 9_ButtonBackgroundStyle:
   animation: animation
   normalImage:
     file: 图标
-    image: WeChatIcon
+    image: IMG6
   highlightImage:
     file: 图标
-    image: WeChatIcon
+    image: IMG6
   <<: *ub
 
 10_Button:
   size:
     height: 1/4
   backgroundStyle: 10_ButtonBackgroundStyle
-  action:
-    {
-      openURL: iosamap://path?sourceApplication=applicationName&dname=#pasteboardContent&t=0,
-    }
+  action: {openURL: baidumap://map/place/search?query=#pasteboardContent}
 
 10_ButtonBackgroundStyle:
   animation: animation
   normalImage:
     file: 图标
-    image: AmapIcon
+    image: IMG2
   highlightImage:
     file: 图标
-    image: AmapIcon
+    image: IMG2
   <<: *ub
 
 # 按键背景动画
