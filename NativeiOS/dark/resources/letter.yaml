@@ -1,0 +1,440 @@
+IMG1:  #大写字母A开始
+  rect:
+    x: 0
+    y: 0
+    width: 200
+    height: 200
+
+IMG2:
+  rect:
+    x: 200
+    y: 0
+    width: 200
+    height: 200
+
+IMG3:
+  rect:
+    x: 400
+    y: 0
+    width: 200
+    height: 200
+
+IMG4:
+  rect:
+    x: 600
+    y: 0
+    width: 200
+    height: 200
+
+IMG5:
+  rect:
+    x: 800
+    y: 0
+    width: 200
+    height: 200
+
+IMG6:
+  rect:
+    x: 1000
+    y: 0
+    width: 200
+    height: 200
+
+IMG7:
+  rect:
+    x: 1200
+    y: 0
+    width: 200
+    height: 200
+
+IMG8:
+  rect:
+    x: 1400
+    y: 0
+    width: 200
+    height: 200
+
+IMG9:
+  rect:
+    x: 1600
+    y: 0
+    width: 200
+    height: 200
+
+IMG10:
+  rect:
+    x: 1800
+    y: 0
+    width: 200
+    height: 200
+
+IMG11:
+  rect:
+    x: 2000
+    y: 0
+    width: 200
+    height: 200
+
+IMG12:
+  rect:
+    x: 2200
+    y: 0
+    width: 200
+    height: 200
+
+IMG13:
+  rect:
+    x: 2400
+    y: 0
+    width: 200
+    height: 200
+
+IMG14:
+  rect:
+    x: 2600
+    y: 0
+    width: 200
+    height: 200
+
+IMG15:
+  rect:
+    x: 2800
+    y: 0
+    width: 200
+    height: 200
+
+IMG16:
+  rect:
+    x: 3000
+    y: 0
+    width: 200
+    height: 200
+
+IMG17:
+  rect:
+    x: 3200
+    y: 0
+    width: 200
+    height: 200
+
+IMG18:
+  rect:
+    x: 3400
+    y: 0
+    width: 200
+    height: 200
+
+IMG19:
+  rect:
+    x: 3600
+    y: 0
+    width: 200
+    height: 200
+
+IMG20:
+  rect:
+    x: 3800
+    y: 0
+    width: 200
+    height: 200
+
+IMG21:
+  rect:
+    x: 4000
+    y: 0
+    width: 200
+    height: 200
+
+IMG22:
+  rect:
+    x: 4200
+    y: 0
+    width: 200
+    height: 200
+
+IMG23:
+  rect:
+    x: 4400
+    y: 0
+    width: 200
+    height: 200
+
+IMG24:
+  rect:
+    x: 4600
+    y: 0
+    width: 200
+    height: 200
+
+IMG25:
+  rect:
+    x: 4800
+    y: 0
+    width: 200
+    height: 200
+
+IMG26:
+  rect:
+    x: 5000
+    y: 0
+    width: 200
+    height: 200
+
+IMG27:  # 小写字母a开始
+  rect:
+    x: 0
+    y: 200
+    width: 200
+    height: 200
+
+IMG28:
+  rect:
+    x: 200
+    y: 200
+    width: 200
+    height: 200
+
+IMG29:
+  rect:
+    x: 400
+    y: 200
+    width: 200
+    height: 200
+
+IMG30:
+  rect:
+    x: 600
+    y: 200
+    width: 200
+    height: 200
+
+IMG31:
+  rect:
+    x: 800
+    y: 200
+    width: 200
+    height: 200
+
+IMG32:
+  rect:
+    x: 1000
+    y: 200
+    width: 200
+    height: 200
+
+IMG33:
+  rect:
+    x: 1200
+    y: 200
+    width: 200
+    height: 200
+
+IMG34:
+  rect:
+    x: 1400
+    y: 200
+    width: 200
+    height: 200
+
+IMG35:
+  rect:
+    x: 1600
+    y: 200
+    width: 200
+    height: 200
+
+IMG36:
+  rect:
+    x: 1800
+    y: 200
+    width: 200
+    height: 200
+
+IMG37:
+  rect:
+    x: 2000
+    y: 200
+    width: 200
+    height: 200
+
+IMG38:
+  rect:
+    x: 2200
+    y: 200
+    width: 200
+    height: 200
+
+IMG39:
+  rect:
+    x: 2400
+    y: 200
+    width: 200
+    height: 200
+
+IMG40:
+  rect:
+    x: 2600
+    y: 200
+    width: 200
+    height: 200
+
+IMG41:
+  rect:
+    x: 2800
+    y: 200
+    width: 200
+    height: 200
+
+IMG42:
+  rect:
+    x: 3000
+    y: 200
+    width: 200
+    height: 200
+
+IMG43:
+  rect:
+    x: 3200
+    y: 200
+    width: 200
+    height: 200
+
+IMG44:
+  rect:
+    x: 3400
+    y: 200
+    width: 200
+    height: 200
+
+IMG45:
+  rect:
+    x: 3600
+    y: 200
+    width: 200
+    height: 200
+
+IMG46:
+  rect:
+    x: 3800
+    y: 200
+    width: 200
+    height: 200
+
+IMG47:
+  rect:
+    x: 4000
+    y: 200
+    width: 200
+    height: 200
+
+IMG48:
+  rect:
+    x: 4200
+    y: 200
+    width: 200
+    height: 200
+
+IMG49:
+  rect:
+    x: 4400
+    y: 200
+    width: 200
+    height: 200
+
+IMG50:
+  rect:
+    x: 4600
+    y: 200
+    width: 200
+    height: 200
+
+IMG51:
+  rect:
+    x: 4800
+    y: 200
+    width: 200
+    height: 200
+
+IMG52:
+  rect:
+    x: 5000
+    y: 200
+    width: 200
+    height: 200
+
+IMG62:  # 数字1-0开始
+  rect:
+    x: 0
+    y: 400
+    width: 200
+    height: 200
+
+IMG63:
+  rect:
+    x: 200
+    y: 400
+    width: 200
+    height: 200
+
+IMG64:
+  rect:
+    x: 400
+    y: 400
+    width: 200
+    height: 200
+
+IMG65:
+  rect:
+    x: 600
+    y: 400
+    width: 200
+    height: 200
+
+IMG66:
+  rect:
+    x: 800
+    y: 400
+    width: 200
+    height: 200
+
+IMG67:
+  rect:
+    x: 1000
+    y: 400
+    width: 200
+    height: 200
+
+IMG68:
+  rect:
+    x: 1200
+    y: 400
+    width: 200
+    height: 200
+
+IMG69:
+  rect:
+    x: 1400
+    y: 400
+    width: 200
+    height: 200
+
+IMG70:
+  rect:
+    x: 1600
+    y: 400
+    width: 200
+    height: 200
+
+IMG71:
+  rect:
+    x: 1800
+    y: 400
+    width: 200
+    height: 200
+
+IMG72:
+  rect:
+    x: 2000
+    y: 400
+    width: 200
+    height: 200
