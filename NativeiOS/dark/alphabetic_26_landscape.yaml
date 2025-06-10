@@ -3410,7 +3410,6 @@ commaButton:
     - commaButtonUpForegroundStyle
   action: {symbol: ','}
   swipeUpAction: {symbol: '.'}
-  holdSymbolsStyle: commaButtonHoldSymbolsStyle
 
 commaButtonBackgroundStyle:
   animation: animation
@@ -3427,36 +3426,6 @@ commaButtonUpForegroundStyle:
   text: '.'
   <<: *dot_upqj
 
-commaButtonHoldSymbolsStyle:
-  backgroundStyle: alphabeticHoldSymbolsBackgroundStyle
-  foregroundStyle:
-    - commaButtonHoldSymbolsForegroundStyle0
-    - commaButtonHoldSymbolsForegroundStyle1
-  actions:
-    - {sendKeys: Shift+Control+j}
-    - {sendKeys: Control+i}
-  selectedStyle: alphabeticHoldSymbolsSelectedStyle
-  selectedIndex: 1
-  symbolWidth: 30
-
-commaButtonHoldSymbolsForegroundStyle0:
-  text: |-
-    // JavaScript: 根据当前选项显示拼音注解等级
-    function getText() {
-      let level = $getRimeOptionState("spelling.lv1") ? "②" :
-                 $getRimeOptionState("spelling.lv2") ? "③" :
-                 $getRimeOptionState("spelling.lv3") ? "〇" : "①";
-      return level;
-    }
-  <<: *vwiaqp
-
-commaButtonHoldSymbolsForegroundStyle1:
-  text: |-
-    // JavaScript
-    function getText() {
-      return $getRimeOptionState("chaifen") ? "拆" : "扌斥";
-    }
-  <<: *vwiaqp
 
 enterButton:
   size:
